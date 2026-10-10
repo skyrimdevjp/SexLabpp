@@ -1,0 +1,35 @@
+FormKey: 1012CA:SexLab.esm
+EditorID: SexLabActorSelectSelf
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sslrapespelleffect
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RapeSpell
+      Object: 100D62:SexLab.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SexLabRSPush
+      Object: 1022F4:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: "ã\x81Ÿã\x81¾ã‚‰ã\x81ªã\x81„ã\x81»ã\x81©ã\x81®é­…åŠ›"
+Flags:
+- Painless
+MagicSkill: Illusion
+Unknown1: 24909
+CastingLight: 094E66:Skyrim.esm
+EnchantShader: 000146:Skyrim.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+Projectile: 07331D:Skyrim.esm
+CastType: FireAndForget
+CastingArt: 07331A:Skyrim.esm
+HitEffectArt: 07024B:Skyrim.esm
+DualCastScale: 1
+CastingSoundLevel: Normal
+Description:
+  TargetLanguage: English
+  Value: ''

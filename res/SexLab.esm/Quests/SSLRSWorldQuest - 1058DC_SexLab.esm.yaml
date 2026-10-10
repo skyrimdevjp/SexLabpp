@@ -1,0 +1,104 @@
+FormKey: 1058DC:SexLab.esm
+EditorID: SSLRSWorldQuest
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sslrsworldquestscript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Pairs
+      Objects:
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 5
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 6
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 4
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 1
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 0
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 3
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 8
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 7
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 10
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 5
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Sessions
+      Objects:
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 1
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 3
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 2
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SexLabActive
+      Object: 012B24:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSCourtingRate
+      Object: 1058F1:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSCourtingRateDefault
+      Object: 1058F5:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSMagnitude
+      Object: 1058F3:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSPlayerAssaultRate
+      Object: 1058F0:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSPlayerAssaultRateDefault
+      Object: 1058F6:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSRandomRate
+      Object: 1058F2:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSRandomRateDefault
+      Object: 1058F4:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSRaperQuest
+      Object: 1058DD:SexLab.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1058DC:SexLab.esm
+      Alias: 0
+    Scripts:
+    - Name: sslrsplayerscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSRaperQuest
+        Object: 1058DD:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: the World
+QuestFormVersion: 68
+NextAliasID: 1
+Aliases:
+- Name: PlayerRef
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null

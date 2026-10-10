@@ -1,0 +1,83 @@
+FormKey: 10794A:SexLab.esm
+EditorID: SSLRSFollowNakedPlayerPackage
+FormVersion: 43
+Flags:
+- PreferredSpeed
+Type: Package
+PreferredSpeed: Run
+Unknown: 100
+InteruptFlags:
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInCombatConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 5
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsSneakingConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 5
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsWeaponMagicOutConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 5
+OwnerQuest: 1058DD:SexLab.esm
+PackageTemplate: 019B2C:Skyrim.esm
+DataInputVersion: 4
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetAlias
+      Alias: 5
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 150
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 200
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+XnamMarker: 0x09
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

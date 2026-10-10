@@ -1,0 +1,35 @@
+FormKey: 1058EA:SexLab.esm
+EditorID: SSLRSSexualInferiorityPerk
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: æ€§çš„åŠ£ç­‰æ„Ÿ
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Hidden: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Unknown2: 91
+      Data:
+        MutagenObjectType: GetFactionRankConditionData
+        Faction: 1022F5:SexLab.esm
+      ComparisonValue: 2
+  - RunOnTabIndex: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThan
+      Unknown2: 91
+      Data:
+        MutagenObjectType: GetFactionRankConditionData
+        Faction: 1022F5:SexLab.esm
+      ComparisonValue: 1
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0

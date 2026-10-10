@@ -1,0 +1,30 @@
+FormKey: 11409B:SexLab.esm
+EditorID: SSLRSSlowTriggerEffect
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SSLRSEdgeTriggerScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dummyWeight
+      Object: 111AE0:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: Listless
+Flags:
+- Recover
+- Detrimental
+- NoArea
+- Painless
+- NoDeathDispel
+Unknown1: 11872
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: SpeedMult
+CastType: FireAndForget
+TargetType: TargetActor
+DualCastScale: 1
+CastingSoundLevel: Normal
+Description:
+  TargetLanguage: English
+  Value: Feeling listless. Movement time takes <mag>% more.

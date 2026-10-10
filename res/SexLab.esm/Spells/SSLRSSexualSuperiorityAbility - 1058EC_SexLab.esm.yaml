@@ -1,0 +1,17 @@
+FormKey: 1058EC:SexLab.esm
+EditorID: SSLRSSexualSuperiorityAbility
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: æ€§çš„å„ªè¶Šæ„Ÿ
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+Type: Ability
+Effects:
+- BaseEffect: 1058EB:SexLab.esm
+  Data:
+    Duration: 863913600

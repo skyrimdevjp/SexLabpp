@@ -1,0 +1,19 @@
+FormKey: 1022F5:SexLab.esm
+EditorID: SSLRSLoverFaction
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: SSL Lovers of Rape Faction
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- CanBeOwner
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

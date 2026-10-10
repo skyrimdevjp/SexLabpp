@@ -1,0 +1,23 @@
+FormKey: 111AE0:SexLab.esm
+EditorID: SSLRSAttractant
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: èª˜å¼•å‰¤
+Keywords:
+- 08CDED:Skyrim.esm
+Model:
+  File: Clutter\Potions\PoisonFrenzy05.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03EDBD:Skyrim.esm
+PutDownSound: 03EDC0:Skyrim.esm
+Weight: 0.05
+Value: 1
+Flags:
+- NoAutoCalc
+- Poison
+ConsumeSound: 0B6435:Skyrim.esm
+Effects:
+- BaseEffect: 111ADF:SexLab.esm
+  Data:
+    Duration: 90

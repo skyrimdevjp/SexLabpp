@@ -1,0 +1,24 @@
+FormKey: 103887:SexLab.esm
+EditorID: SSLRSAggressDrainSpell
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: "è¥²æ’ƒè€…ã\x81®æ¶ˆè€—"
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- NoDualCastModification
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 1022F6:SexLab.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 7200
+- BaseEffect: 1022F8:SexLab.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 7200

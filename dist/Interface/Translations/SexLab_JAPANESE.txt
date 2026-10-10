@@ -1,0 +1,680 @@
+# --------------- Global -----------------------------------------------------
+$SSL_ClickHere	ここをクリック
+$SSL_Random	ランダム
+$SSL_Never	しない
+$SSL_Sometimes	ときどき
+$SSL_Everything	すべて
+$SSL_Always	常に
+$SSL_Unknown	不明
+$SSL_Remove	削除
+$SSL_Seconds	{0} 秒
+$SSL_Male	男性
+$SSL_Female	女性
+$SSL_Futa	ふたなり
+$SSL_Creature	クリーチャー
+$SSL_NoTarget	(対象なし)
+$SSL_Apply	適用
+$SSL_Enabled	有効
+$SSL_PrevPage	<< 前のページ
+$SSL_NextPage	次のページ >>
+$SSL_Low	低
+$SSL_High	高
+$SSL_ConflictControl{}{}	このキーはすでに次に割り当てられています:\n{} ({})\n\n続けてもよろしいですか？
+$SSL_ConflictControl{}	このキーはすでに次に割り当てられています:\n{}\n\n続けてもよろしいですか？
+$SSL_KeyCannotBeDisabled	このキーは割り当てが必須のため、無効にできません。
+$SSL_TSModeSelect	シーンの種類
+$SSL_TSModeSelectHighlight	このページの脱衣設定を、どの種類のシーンに適用するかを選びます
+
+# --------------- Races -----------------------------------------------------
+
+$SSL_Creatures	クリーチャー
+$SSL_Humans	人型
+
+$SSL_Race_0	人型
+$SSL_Race_1	アッシュホッパー
+$SSL_Race_2	クマ
+$SSL_Race_3	イノシシ
+$SSL_Race_4	イノシシ (騎乗)
+$SSL_Race_5	イノシシ (単体)
+$SSL_Race_6	イヌ科
+$SSL_Race_7	シャウラス
+$SSL_Race_8	シャウラス・ハンター
+$SSL_Race_9	シャウラス・リーパー
+$SSL_Race_10	ニワトリ
+$SSL_Race_11	ウシ
+$SSL_Race_12	シカ
+$SSL_Race_13	イヌ
+$SSL_Race_14	ドラゴン
+$SSL_Race_15	ドラゴン・プリースト
+$SSL_Race_16	ドラウグル
+$SSL_Race_17	ドワーフ・バリスタ
+$SSL_Race_18	ドワーフ・センチュリオン
+$SSL_Race_19	ドワーフ・スフィア
+$SSL_Race_20	ドワーフ・スパイダー
+$SSL_Race_21	ファルメル
+$SSL_Race_22	炎の精霊
+$SSL_Race_23	キツネ
+$SSL_Race_24	氷の精霊
+$SSL_Race_25	ガーゴイル
+$SSL_Race_26	巨人
+$SSL_Race_27	巨大グモ
+$SSL_Race_28	ヤギ
+$SSL_Race_29	ハグレイヴン
+$SSL_Race_30	ウサギ
+$SSL_Race_31	ホーカー
+$SSL_Race_32	馬
+$SSL_Race_33	アイスレイス
+$SSL_Race_34	大型グモ
+$SSL_Race_35	ルーカー
+$SSL_Race_36	マンモス
+$SSL_Race_37	マッドクラブ
+$SSL_Race_38	ネッチ
+$SSL_Race_39	リークリング
+$SSL_Race_40	サーベルキャット
+$SSL_Race_41	シーカー
+$SSL_Race_42	スキーヴァー
+$SSL_Race_43	スローターフィッシュ
+$SSL_Race_44	クモ
+$SSL_Race_45	スプリガン
+$SSL_Race_46	雷の精霊
+$SSL_Race_47	トロール
+$SSL_Race_48	ヴァンパイア・ロード
+$SSL_Race_49	ウェアウルフ
+$SSL_Race_50	ウィスプ
+$SSL_Race_51	ウィスプマザー
+$SSL_Race_52	オオカミ
+
+# --------------- Sex Journal (Sex Diary) -----------------------------------------------------
+$SSL_SexJournal	セックス日誌
+$SSL_SexDiary	セックス日記
+
+$SSL_StatSelectingMenu	表示する統計
+$SSL_StatSelectingMenuHighlight	統計を表示している、現在選択中の対象です。
+
+$SSL_Reset{}Stats	{} の統計をリセット
+$SSL_ResetStatHighlight	選択中のアクターを統計の登録から削除し、標準の統計とカスタム統計の両方をリセットします。
+$SSL_WarnReset{}Stats	{} の性経験と統計をすべてリセットします。続けますか？
+
+# ------ Statistics
+$SSL_Statistics	統計
+
+$SSL_LastTimeInScene	最後のシーンの日付
+$SSL_TimeInScenes	シーンで過ごした時間
+$SSL_Statistic_2	膣の経験
+$SSL_Statistic_3	アナルの経験
+$SSL_Statistic_4	オーラルの経験
+
+$SSL_Unskilled	未経験
+$SSL_Novice	初心者
+$SSL_Apprentice	見習い
+$SSL_Journeyman	一人前
+$SSL_Expert	熟練者
+$SSL_Master	達人
+$SSL_GrandMaster	大達人
+
+$SSL_Statistic_5	相手の数: 男性
+$SSL_Statistic_6	相手の数: 女性
+$SSL_Statistic_7	相手の数: ふたなり
+$SSL_Statistic_8	相手の数: クリーチャー
+
+$SSL_Sexuality	性的指向
+$SSL_SexualityHighlight	クリックすると、このアクターの性的指向を変更します。
+
+$SSL_Lesbian	レズビアン
+$SSL_Gay	ゲイ
+$SSL_Bisexual	バイセクシャル
+$SSL_Heterosexual	異性愛
+
+$SSL_Statistic_9	オーラルの回数
+$SSL_Statistic_10	膣の回数
+$SSL_Statistic_11	アナルの回数
+$SSL_Statistic_12	自慰の回数
+$SSL_Statistic_13	受け側の回数
+$SSL_Statistic_14	攻め側の回数
+$SSL_Statistic_15	合計回数
+
+# ----------------- Animation Settings ---------------------------------------------------
+$SSL_AnimationSettings	アニメーション設定
+
+# ------ Player settings
+$SSL_PlayerSettings	プレイヤー設定
+
+$SSL_bAutoAdvance	ステージの自動進行
+$SSL_bAutoAdvanceHighlight	プレイヤーが参加しているとき、アニメーションがタイマーで自動的に次のステージへ進みます。
+$SSL_bDisablePlayer	被害者側の操作を無効化
+$SSL_bDisablePlayerHighlight	プレイヤーがアニメーションの被害者側のとき、アニメーションの操作を有効にしません。
+$SSL_bAutoTFC	フリーカメラを自動で使う
+$SSL_bAutoTFCHighlight	有効にすると、プレイヤーが参加するアニメーションの開始時に、自由に飛び回れるカメラ(TFC)を自動で有効にします。
+$SSL_fAutoSUCSM	フリーカメラの速度
+$SSL_fAutoSUCSMHighlight	フリーカメラを開始したときの、初期の移動速度です。
+$SSL_PlayerSex	プレイヤーの性別
+$SSL_{}Sex	{} の性別
+$SSL_SexSelectHighlight	SexLab がこのアクターの性別をどう扱うかです。シーンでアクターをどのポジションに配置できるかを決めるのに使います。アクターの振る舞いや見た目には直接影響しません。
+
+# ------ Extra effects
+$SSL_ExtraEffects	追加エフェクト
+
+$SSL_ClimaxType	クライマックスの方式
+$SSL_ClimaxTypeHighlight	シーン中のクライマックスの動作です。
+$SSL_Climax_0	シーン (オーガズムのステージ)
+$SSL_Climax_1	レガシー (アニメーションの終了時)
+$SSL_Climax_2	個別 (SLSO)
+
+$SSL_bOrgasmEffects	オーガズムのエフェクトを再生
+$SSL_bOrgasmEffectsHighlight	有効にすると、アクターがオーガズムするたびに効果音を再生し、プレイヤーのオーガズムではカメラも揺らします。
+$SSL_fShakeStrength	カメラの揺れの強さ
+$SSL_fShakeStrengthHighlight	「オーガズムのエフェクトを再生」が有効なとき、プレイヤーのオーガズムでのカメラの揺れの強さを設定します。\n「0」にすると無効になります。
+$SSL_bUseCum	精液エフェクトを付ける
+$SSL_bUseCumHighlight	男性のパートナーや攻め側がオーガズムしたあと、受け側や被害者のキャラクターに精液のテクスチャを付けます。
+$SSL_fCumTimer	精液エフェクトの表示時間
+$SSL_fCumTimerHighlight	上の精液エフェクトをキャラクターに表示しておく時間です。
+$SSL_bUseExpressions	表情を付ける
+$SSL_bUseExpressionsHighlight	アニメーション中、選択した MFG プリセットをアクターに適用します。表情は、そのキャラクターの関係するスキルに応じて、アニメーションの進行とともに強くなります。警告: 表情プリセットを声の口パク機能と組み合わせると、表示がおかしくなることがあります。
+$SSL_bUseLipSync	口パクのアニメーションを再生
+$SSL_bUseLipSyncHighlight	アクターが喘ぐたびに、簡単な口の動きのアニメーションを再生します。警告: MFG の表情と組み合わせると、アニメーションが正しく再生されないことがあります。
+
+# ------ Lovense
+$SSL_Lovense	Lovense
+$SSL_iLovenseStrength	標準の強さ
+$SSL_iLovenseStrengthHighlight	シーン中の Lovense トイの振動の強さです。プレイヤーが参加するシーンにだけ適用されます。
+$SSL_iLovenseStrengthOrgasm	オーガズム時の強さ
+$SSL_iLovenseStrengthOrgasmHighlight	オーガズムのあとの Lovense トイの振動の強さです。プレイヤーのオーガズムにだけ適用されます。
+$SSL_iLovenseDurationOrgasm	オーガズム時の持続時間
+$SSL_iLovenseDurationOrgasmHighlight	オーガズムが起きたとき、振動が元に戻るまで続く時間です。
+
+# ------ Creatures
+$SSL_bAllowCreatures	クリーチャーのアニメーションを許可
+$SSL_bAllowCreaturesHighlight	クリーチャーをアニメーションに使えるようにします。
+$SSL_bCreatureGender	クリーチャーの性別を区別
+$SSL_bCreatureGenderHighlight	SexLab がクリーチャーのオスとメスを区別するかどうかです。\nSexLab は通常、人型以外のアクターをすべてオスとして扱います。
+
+# ------ Animation Handling
+$SSL_AnimationHandling	アニメーションの扱い
+
+$SSL_UseFade	フェードを使う
+$SSL_UseFadeHighlight	アニメーションの開始時に、画面効果(イメージモディファイア)をかけます。
+$SSL_UseBlur	ぼかし
+$SSL_UseBlack	暗転
+$SSL_bUndressAnimation	脱衣アニメーション
+$SSL_bUndressAnimationHighlight	最初に脱衣するとき、アクターが服を脱ぐアニメーションを再生します。
+$SSL_bRedressVictim	被害者の再着衣
+$SSL_bRedressVictimHighlight	アニメーションの被害者は、アニメーションの終了後に自動で服を着ません。
+$SSL_bDisableTeleport	開始時のテレポートを無効化
+$SSL_bDisableTeleportHighlight	アニメーションの開始時、アニメーションが本格的に始まる前に、アクター同士が歩いて近づこうとします。
+$SSL_bShowInMap	シーンを地図に表示
+$SSL_bShowInMapHighlight	近くで再生中のシーンごとに、その他クエストのマーカーを表示します(自分が参加しているシーンは除く)。
+$SSL_bSetAnimSpeedByEnjoyment	快感に応じたアニメーション速度
+$SSL_bSetAnimSpeedByEnjoymentHighlight	アクターの快感に応じて、アニメーションの基本速度が変わります(±20%)。
+$SSL_bEnjInterText	快感の行為テキスト
+$SSL_bEnjInterTextHighlight	SceneHUD の快感バーに、現在の行為の内容を表示するかを切り替えます。
+$SSL_AdjustStage	このステージだけ調整
+$SSL_AdjustStageHighlight	ポジションやステージのオフセットの変更を、再生中のステージにだけ適用するかを切り替えます。
+$SSL_fAdjustStepSize	オフセットの調整幅
+$SSL_fAdjustStepSizeHighlight	オフセットを1回調整するときの変化量です。
+$SSL_bHideHUD	ゲームの HUD を隠す
+$SSL_bHideHUDHighlight	ゲームの HUD の表示を隠します。シーンの HUD は隠しません。
+$SSL_FurnitureNPC	家具の使用: NPC
+$SSL_FurnitureNPCHighlight	NPC が家具をどう使うかを決めます。具体的には、家具を使うシーンがあるときに、NPC が通常のシーンより家具のシーンを優先するかどうかです。
+$SSL_AskNotSub	確認する (受け側のときを除く)
+$SSL_AskAlways	確認する (常に)
+$SSL_FurniturePlayer	家具の使用: プレイヤー
+$SSL_FurniturePlayerHighlight	家具のシーンを使うタイミングを決めます(使える場合)。プレイヤーが参加するシーンでは、NPC の設定より優先されます。「確認する」を選ぶと、家具を選ぶメニューが開きます。受け側のとき(かつ「受け側のときを除く」を選んでいる場合)は、NPC の設定に従います。
+
+# ---- COMEBACK: Might delete
+$SSL_bDisableScale	スケール変更を無効化 / CTD 対策
+$SSL_bDisableScaleHighlight	!!! 必要な場合だけ有効にしてください !!!\nSexLab 内部での SetScale() の使用をすべて無効にします。SetScale() は、一部の環境でアニメーション開始時のクラッシュの原因になることが分かっています。家具の使用など、ほかの方法でスケールが変わることはあり、これを有効にしている間は SexLab がそれを補正できません。結果は環境によって異なります。
+
+# ----------------- Voices & SFX ---------------------------------------------------
+$SSL_SoundSettings	声と効果音
+
+$SSL_fSFXVolume	効果音の音量
+$SSL_fSFXVolumeHighlight	効果音全体の音量です。0.0 で無音、1.0 で最大です。
+$SSL_fSFXDelay	効果音の間隔
+$SSL_fSFXDelayHighlight	該当する効果音は、最初はこの間隔で鳴り、ステージが進むごとに短くなります。
+$SSL_fVoiceVolume	声の音量
+$SSL_fVoiceVolumeHighlight	声全体の音量です。0.0 で無音、1.0 で最大です。
+$SSL_fMaleVoiceDelay	男性の声の間隔
+$SSL_fMaleVoiceDelayHighlight	男性は最初この間隔で声を出し、ステージが進むごとに短くなります。
+$SSL_fFemaleVoiceDelay	女性の声の間隔
+$SSL_fFemaleVoiceDelayHighlight	女性は最初この間隔で声を出し、ステージが進むごとに短くなります。
+
+$SSL_CachedVoices	割り当て済みの声
+$SSL_SelectVoiceCache	選択中のアクター
+$SSL_SelectVoiceCacheHighlight	声を表示しているアクターです。
+$SSL_SelectVoiceCacheV	アクターの声
+$SSL_SelectVoiceCacheVHighlight	このアクターが使っている SexLab の声です。\n声は(手動で選ばない限り)、アクターが初めてアニメーションに参加したときに決まります。
+
+$SSL_ToggleVoices	声の切り替え
+$SSL_ActiveVoices	表示中の声
+$SSL_ActiveVoicesHighlight	表示している声です。指定した種族で絞り込まれています。
+
+$SSL_FemaleAverage	[SL] 女性・標準
+$SSL_FemaleBreathy	[SL] 女性・吐息まじり
+$SSL_FemaleClassic	[SL] 女性・クラシック
+$SSL_FemaleExcitable	[SL] 女性・興奮しやすい
+$SSL_FemaleMature	[SL] 女性・大人
+$SSL_FemaleQuiet	[SL] 女性・控えめ
+$SSL_FemaleStimulated	[SL] 女性・高ぶり
+$SSL_FemaleYoung	[SL] 女性・若い
+$SSL_FemaleFlat	[SL] 女性・平坦
+$SSL_FemaleRebellious	[SL] 女性・反抗的
+$SSL_FemaleRebellious2	[SL] 女性・反抗的 (別版)
+$SSL_FemaleRough	[SL] 女性・荒々しい
+$SSL_FemaleSeductive	[SL] 女性・誘惑的
+$SSL_FemaleShy	[SL] 女性・恥ずかしがり
+$SSL_FemaleShy2	[SL] 女性・恥ずかしがり (別版)
+$SSL_FemaleWarrior	[SL] 女性・戦士
+
+$SSL_MaleAverage	[SL] 男性・標準
+$SSL_MaleCalm	[SL] 男性・落ち着き
+$SSL_MaleNeutral	[SL] 男性・平静
+$SSL_MaleRough	[SL] 男性・荒々しい
+
+$SSL_ChaurusVoice01	[SL] シャウラス・標準
+$SSL_DogVoice01	[SL] イヌ・標準
+$SSL_DraugrVoice01	[SL] ドラウグル・標準
+$SSL_FalmerVoice01	[SL] ファルメル・標準
+$SSL_GiantVoice01	[SL] 巨人・標準
+$SSL_HorseVoice01	[SL] 馬・標準
+$SSL_SprigganVoice01	[SL] スプリガン・標準
+$SSL_TrollVoice01	[SL] トロール・標準
+$SSL_WerewolfVoice01	[SL] ウェアウルフ・標準
+$SSL_WolfVoice01	[SL] オオカミ・標準
+
+# ------------------Player Hotkeys--------------------------------------------------
+$SSL_PlayerHotkeys	プレイヤーのホットキー
+
+# ------ Global SexLab Hotkeys
+$SSL_GlobalHotkeys	SexLab 全体のホットキー
+
+$SSL_iTargetActor	アクターを対象にする / 相手を変える
+$SSL_iTargetActorHighlight	このホットキーを押したあと、対象にしたことを知らせる通知が出るまで、ゲーム内でアクターに照準を合わせてください。対象にしたアクターは、メニューの各ページで編集できるようになります。
+$SSL_iToggleFreeCamera	フリーカメラの切り替え
+$SSL_iToggleFreeCameraHighlight	カメラを自由に飛び回れる状態に切り替えます。コンソールで TFC と入力するのと同じです。このホットキーはアニメーション中かどうかに関係なく、常に有効です。
+$SSL_iToggleThreadControl	スレッド操作の切り替え
+
+# ------ Scene Manipulation
+$SSL_SceneManipulation	シーンの操作
+
+$SSL_iToggleSceneHUD	SceneHUD の表示切り替え
+$SSL_iFocusSceneHUD	SceneHUD を操作する
+$SSL_iToggleSceneGraph	シーングラフの表示切り替え
+$SSL_iKeyAdvance	シーンを進める
+$SSL_iKeyEnd	シーンを終了
+$SSL_iKeyMod	修飾キー
+$SSL_iKeyModHighlight	ほかのホットキーを別の動作に切り替えます。\n次へ/前へ: 相手の変更、ステージを進める。\n調整対象: 快感を上げる、快感をこらえる。\n修飾キーで「調整対象」に切り替わるホットキーは、プレイヤー自身に作用します。
+$SSL_iChangeAnimation	アニメーションを変更
+$SSL_iMoveScene	シーンを移動
+
+# ------------------- Timers & Stripping -------------------------------------------------
+$SSL_TimersStripping	タイマーと脱衣
+
+# ------ Timers
+$SSL_Timers	タイマー
+$SSL_StageTimer_0	ステージ1の長さ
+$SSL_StageTimer_1	ステージ2の長さ
+$SSL_StageTimer_2	ステージ3の長さ
+$SSL_StageTimer_3	最終ステージの長さ
+
+# ------ Stripping
+$SSL_Stripping	脱衣
+
+$SSL_DefaultStripping	標準のシーン
+$SSL_DominantStripping	攻め側がいるシーン
+
+$SSL_StrippingFst_0	男性のアクター
+$SSL_StrippingSnd_0	女性のアクター
+$SSL_StrippingFst_1	攻め側のアクター
+$SSL_StrippingSnd_1	受け側のアクター
+$SSL_ExtraSlots	追加スロット (名前は正確でない場合があります)
+
+$SSL_Strip_0	[30] 頭
+$SSL_Strip_1	[31] 髪
+$SSL_Strip_2	[32] 胴体
+$SSL_Strip_3	[33] 手
+$SSL_Strip_4	[34] 前腕
+$SSL_Strip_5	[35] 首飾り
+$SSL_Strip_6	[36] 指輪
+$SSL_Strip_7	[37] 足
+$SSL_Strip_8	[38] ふくらはぎ
+$SSL_Strip_9	[39] 盾
+$SSL_Strip_10	[40] 尻尾
+$SSL_Strip_11	[41] 長い髪
+$SSL_Strip_12	[42] サークレット
+$SSL_Strip_13	[43] 耳
+$SSL_Strip_14	[44] 顔/口
+$SSL_Strip_15	[45] 首
+$SSL_Strip_16	[46] 胸
+$SSL_Strip_17	[47] 背中
+$SSL_Strip_18	[48] その他のスロット
+$SSL_Strip_19	[49] 腰/上着
+$SSL_Strip_20	[50] 切断された頭
+$SSL_Strip_21	[51] 首の切断
+$SSL_Strip_22	[52] 腰/下着
+$SSL_Strip_23	[53] 脚/右脚
+$SSL_Strip_24	[54] 脚/左脚
+$SSL_Strip_25	[55] 顔/装飾品
+$SSL_Strip_26	[56] 胸/下着
+$SSL_Strip_27	[57] 肩
+$SSL_Strip_28	[58] 腕/左腕/下着
+$SSL_Strip_29	[59] 腕/右腕/上着
+$SSL_Strip_30	[60] *3BA ボディ
+$SSL_Strip_31	[61] *魔法エフェクト
+$SSL_Weapons	[--] 武器
+
+# ------------------ Toggle Animations --------------------------------------------------
+$SSL_ToggleAnimations	アニメーションの有効/無効
+$SSL_TogglePackage	アニメーションパックで絞り込む
+$SSL_TogglePackageHighlight	特定のアニメーションパック/モジュールのアニメーションだけを表示します
+$SSL_ToggleGroup	グループで絞り込む
+$SSL_togglecategoryHighlight	人型/クリーチャーの分類でアニメーションを絞り込みます
+$SSL_ToggleVisible	表示中のものを切り替え
+$SSL_ToggleVisibleHighlight	このページで絞り込まれているアニメーションを、まとめて有効または無効にします
+$SSL_TagFilter	タグで絞り込む
+$SSL_toggletagsHighlight	タグでアニメーションを絞り込みます
+$SSL_Page{}{}	ページ {}/{}
+
+
+# ------------------ Matchmaker --------------------------------------------------
+$SSL_MatchMaker	マッチメイカー
+
+$SSL_ToggleMatchMaker	マッチメイカーを有効にする
+$SSL_ToggleMatchMakerHighlight	マッチメイカーを有効にします。呪文が魔法メニューに追加されます
+
+# ------ Tag Settings
+$SSL_MatchMakerTagsSettings	タグの設定
+$SSL_InputTags	タグ:
+$SSL_matchmakerInputTagsHighlight	下で入力したタグから組み立てた、最終的なタグの文字列です
+$SSL_InputRequiredTags	必須のタグ:
+$SSL_matchmakerInputRequiredTagsHighlight	カンマ区切りのタグの一覧です。絞り込まれるシーンには、これらのタグがすべて同時に付いている必要があります
+$SSL_InputExcludedTags	除外するタグ:
+$SSL_matchmakerInputExcludedTagsHighlight	カンマ区切りのタグの一覧です。絞り込まれるシーンには、これらのタグが1つも付いていてはいけません
+$SSL_InputOptionalTags	どれか1つでよいタグ:
+$SSL_matchmakerInputOptionalTagsHighlight	カンマ区切りのタグの一覧です。絞り込まれるシーンには、これらのタグのうち少なくとも1つが付いている必要があります
+$SSL_TextResetTags	タグをリセット
+$SSL_TextResetTagsHighlight	タグの入力欄をすべてリセットします
+$SSL_ResetTagsHere	クリック
+$SSL_TagResetAreYouSure	タグをすべてリセットします。よろしいですか？
+
+# ------ Actor Settings
+$SSL_MatchMakerActorSettings	アクターの設定
+$SSL_bSubmissivePlayer	プレイヤーを受け側にする
+$SSL_bSubmissivePlayerHighlight	プレイヤーが受け側のポジションになるシーンに絞り込みます
+$SSL_bSubmissiveTarget	対象を受け側にする
+$SSL_bSubmissiveTargetHighlight	対象のアクターが受け側のポジションになるシーンに絞り込みます
+
+# ------------------ Enjoyment --------------------------------------------------
+$SSL_EnjoymentSettings	快感の設定
+$SSL_EnjPrimarySettings	基本設定
+$SSL_EnjGeneralConfigs	全般の設定
+$SSL_EnjGameConfigs	ミニゲームの設定
+$SSL_EnjPainConfigs	痛みの設定
+$SSL_EnjGameHotkeys	ミニゲームのホットキー
+$SSL_EnjMiscRateMult	その他の上昇倍率
+
+# ------ Primary Settings
+$SSL_bInternalEnjoymentEnabled	内部の快感システムを有効にする
+$SSL_bInternalEnjoymentEnabledHighlight	内部の快感システムを切り替えます。外部の MOD が快感の計算を完全に引き受ける場合を除き、有効のままにしてください。
+$SSL_fEnjRaiseMultInter	快感上昇倍率: 行為
+$SSL_fEnjRaiseMultInterHighlight	検出された行為に応じてアクターの快感が上がる速さを決める、主な倍率です。値が大きいほど快感が早く上がり、小さいほど遅くなります。\n快感の上昇を快感ミニゲームだけに任せたい場合は、0 まで下げられます。
+$SSL_bGameEnabled	快感ミニゲームを有効にする
+$SSL_bGameEnabledHighlight	SLSO の仕組みを参考にした快感ミニゲームを切り替えます。
+
+# ------ General Configs
+$SSL_bFallbackToTagsForDetection	ポジションのタグで代用する
+$SSL_bFallbackToTagsForDetectionHighlight	内部の物理判定による、行為の種類のリアルタイム推定が使えないとき、ポジションのタグを使って行為を検出するかを切り替えます。
+$SSL_bNoStaminaEndsScene	スタミナ切れでシーン終了
+$SSL_bNoStaminaEndsSceneHighlight	アクターのスタミナがなくなると、シーンを自動で終了します。
+$SSL_bMaleOrgasmEndsScene	男性のオーガズムでシーン終了
+$SSL_bMaleOrgasmEndsSceneHighlight	男性が初めてオーガズムしたあと、シーンを終了します。
+$SSL_bDomMustOrgasm	攻め側のオーガズムを必須にする
+$SSL_bDomMustOrgasmHighlight	シーンが終わる前に、攻め側のアクターがオーガズムする必要があります。\n攻め側のアクターが1回オーガズムするまで、似たアニメーションに切り替えながらスレッドを続けます。
+$SSL_bPlayerMustOrgasm	プレイヤーのオーガズムを必須にする
+$SSL_bPlayerMustOrgasmHighlight	シーンが終わる前に、プレイヤーがオーガズムする必要があります。\nプレイヤーが1回オーガズムするまで、似たアニメーションに切り替えながらスレッドを続けます。
+$SSL_bHighEnjOrgasmWait	快感が高いときはオーガズムを待つ
+$SSL_bHighEnjOrgasmWaitHighlight	アクターの快感が 75 を超えているか、寸止めの状態にある場合、オーガズムの回数に関係なくシーンを続けます。\n快感の高いアクターがオーガズムするまで、似たアニメーションに切り替えながらスレッドを続けます。
+$SSL_iMaxNoPainOrgasmMale	痛みのないオーガズムの上限: 男性
+$SSL_iMaxNoPainOrgasmMaleHighlight	男性のアクターに痛みのペナルティがかからないオーガズムの回数です。オーガズムの回数がこの上限を超えると、そのあとのオーガズムごとに、より大きな痛みのペナルティがかかります。
+$SSL_iMaxNoPainOrgasmFemale	痛みのないオーガズムの上限: 女性
+$SSL_iMaxNoPainOrgasmFemaleHighlight	女性/ふたなりのアクターに痛みのペナルティがかからないオーガズムの回数です。オーガズムの回数がこの上限を超えると、そのあとのオーガズムごとに、より大きな痛みのペナルティがかかります。
+$SSL_iNoPainRequiredTime	痛みが引くまでの時間
+$SSL_iNoPainRequiredTimeHighlight	シーン中に痛みの効果(経験の少ないアクターの挿入による痛みなど)が引くまでの時間(秒)です。
+$SSL_iNoPainRequiredXP	痛みを感じなくなる経験値
+$SSL_iNoPainRequiredXPHighlight	挿入の行為による痛みの効果を受けなくなるのに必要な、アナルと膣の経験値です。
+
+# ------ Misc Multipliers
+$SSL_fEnjMultVictim	快感上昇倍率: 被害者
+$SSL_fEnjMultVictimHighlight	被害者のアクターにかける、追加の快感上昇倍率です。\n(補足: 被害者かどうかは、タグではなくシーンの状況で決まります。)
+$SSL_fEnjMultAggressor	快感上昇倍率: 加害者
+$SSL_fEnjMultAggressorHighlight	加害者のアクターにかける、追加の快感上昇倍率です。\n(補足: 加害者かどうかは、タグではなくシーンの状況で決まります。)
+$SSL_fEnjMultSub	快感上昇倍率: 受け側
+$SSL_fEnjMultSubHighlight	受け側のアクターにかける、追加の快感上昇倍率です。\n(補足: 受け側かどうかは、タグではなく SLSB の受け側フラグで決まります。)
+$SSL_fEnjMultDom	快感上昇倍率: 攻め側
+$SSL_fEnjMultDomHighlight	攻め側(受け側ではない)のアクターにかける、追加の快感上昇倍率です。\n(補足: 攻め側かどうかは、タグではなく SLSB の受け側フラグで決まります。)
+$SSL_fPainHugePPMult	痛みの倍率: 大きなペニス
+$SSL_fPainHugePPMultHighlight	大きなペニスを持つアクターから受け側として挿入されるとき、痛みを強める追加の倍率です。今のところ、一部のクリーチャーによる挿入にだけ使われます。
+
+# ------ Game Configs
+$SSL_iEnjGameStaminaCost	ミニゲームのスタミナ消費
+$SSL_iEnjGameStaminaCostHighlight	ミニゲームの該当する操作をしたときに消費するスタミナの量です。
+$SSL_iEnjGameMagickaCost	ミニゲームのマジカ消費
+$SSL_iEnjGameMagickaCostHighlight	ミニゲームの該当する操作をしたときに消費するマジカの量です。
+$SSL_iGameEnjAdjAmount	快感の調整量
+$SSL_iGameEnjAdjAmountHighlight	ミニゲームの該当する操作をしたときに、快感が増えるまたは減る量です。
+$SSL_bGameRequiredOnHighEnj	快感が高いときはミニゲームを必須にする
+$SSL_bGameRequiredOnHighEnjHighlight	プレイヤーの快感が 80 を超えたとき、衝突判定による快感の上昇を止めるかを切り替えます。\n有効にすると、オーガズムに達するには、プレイヤーが自分でミニゲームを操作する必要があります。
+$SSL_bGameSpamDelayPenalty	ミニゲームの連打/遅れのペナルティ
+$SSL_bGameSpamDelayPenaltyHighlight	快感を上げる操作のタイミングが悪いとき、スタミナとマジカの消費に加えて、プレイヤーに快感のペナルティを与えるかを切り替えます。(重要: この項目は、上の項目と組み合わせたときだけ働きます。)
+
+# ------ Game Hotkeys
+$SSL_iGameRaiseEnjKey	快感を上げるキー
+$SSL_iGameRaiseEnjKeyHighlight	スタミナを消費して、手動で快感を上げるホットキーです。自分/プレイヤーの快感を上げるには、ユーティリティキーと組み合わせます。\n快感が 90 に達したあとは、寸止めの状態を保つのに使います。このとき、連打のペナルティを避けるには、タイミングを合わせて押す必要があります。
+$SSL_iGameHoldbackKey	快感をこらえるキー
+$SSL_iGameHoldbackKeyHighlight	マジカを消費して、手動で快感をこらえる(下げる)ホットキーです。自分/プレイヤーの快感を下げるには、ユーティリティキーと組み合わせます。
+
+# ------------------ Expression Editor --------------------------------------------------
+$SSL_ExpressionEditor	表情エディタ
+
+$SSL_DialogueMood_0	会話: 怒り
+$SSL_DialogueMood_1	会話: 恐怖
+$SSL_DialogueMood_2	会話: 喜び
+$SSL_DialogueMood_3	会話: 悲しみ
+$SSL_DialogueMood_4	会話: 驚き
+$SSL_DialogueMood_5	会話: 困惑
+$SSL_DialogueMood_6	会話: 嫌悪
+$SSL_DialogueMood_7	気分: 平常
+$SSL_DialogueMood_8	気分: 怒り
+$SSL_DialogueMood_9	気分: 恐怖
+$SSL_DialogueMood_10	気分: 喜び
+$SSL_DialogueMood_11	気分: 悲しみ
+$SSL_DialogueMood_12	気分: 驚き
+$SSL_DialogueMood_13	気分: 困惑
+$SSL_DialogueMood_14	気分: 嫌悪
+$SSL_DialogueMood_15	戦闘: 怒り
+$SSL_DialogueMood_16	戦闘: シャウト
+
+$SSL_Phoneme_0	0: Aah
+$SSL_Phoneme_1	1: BigAah
+$SSL_Phoneme_2	2: BMP
+$SSL_Phoneme_3	3: ChjSh
+$SSL_Phoneme_4	4: DST
+$SSL_Phoneme_5	5: Eee
+$SSL_Phoneme_6	6: Eh
+$SSL_Phoneme_7	7: FV
+$SSL_Phoneme_8	8: i
+$SSL_Phoneme_9	9: k
+$SSL_Phoneme_10	10: N
+$SSL_Phoneme_11	11: Oh
+$SSL_Phoneme_12	12: OohQ
+$SSL_Phoneme_13	13: R
+$SSL_Phoneme_14	14: Th
+$SSL_Phoneme_15	15: W
+
+$SSL_Modifier_0	0: 左目のまばたき
+$SSL_Modifier_1	1: 右目のまばたき
+$SSL_Modifier_2	2: 左眉を下げる
+$SSL_Modifier_3	3: 右眉を下げる
+$SSL_Modifier_4	4: 左眉を寄せる
+$SSL_Modifier_5	5: 右眉を寄せる
+$SSL_Modifier_6	6: 左眉を上げる
+$SSL_Modifier_7	7: 右眉を上げる
+$SSL_Modifier_8	8: 下を見る
+$SSL_Modifier_9	9: 左を見る
+$SSL_Modifier_10	10: 右を見る
+$SSL_Modifier_11	11: 上を見る
+$SSL_Modifier_12	12: 左目を細める
+$SSL_Modifier_13	13: 右目を細める
+
+$SSL_ScaleMode_Linear	線形
+$SSL_ScaleMode_Square	2乗
+$SSL_ScaleMode_Cubic	3乗
+$SSL_ScaleMode_Exponential	指数
+
+$SSL_ModifyingExpression	編集中の表情
+$SSL_enableexpressionHighlight	編集中の表情を有効または無効にします
+$SSL_ExpressionScaling	変化のカーブ
+$SSL_ExpressionsNormal	通常のシーンで使う
+$SSL_ExpressionsVictim	受け側のときに使う
+$SSL_ExpressionsAggressor	攻め側のときに使う
+$SSL_ExpressionScalingHighlight	シーンの快感に対して、表情の強さをどう変化させるかです。\n線形: 一定のペースで均等に強くなる\n2乗: 最初に早く強くなり、中盤はゆっくり、オーガズムが近づくと再び急に強くなる\n3乗: 最初はゆっくりで、オーガズムが近づくにつれて徐々に強くなる\n指数: 最初はとてもゆっくりで、オーガズムが近づくと急激に強くなる
+$SSL_EditFemale	女性のデータを編集
+$SSL_TestOnPlayer	プレイヤーで試す
+
+$SSL_WarnTestExpression{}	選択した表情を {} で試します。続けますか？
+$SSL_WarnTestExpressionLowOrHight	現在の表情の弱い側(左)と強い側(右)、どちらを試しますか？
+$SSL_WarnTestExpressionWithOpenMouth	現在の表情を、口を開けた状態で試しますか？
+$SSL_StartTestExpression{}	表情 {} を試しています。15 秒後に元に戻ります。\nメニューを閉じると始まります..
+$SSL_AppliedTestExpression	表情を適用しました。15 秒後に元に戻します...
+$SSL_RestoredTestExpression	表情を元に戻しました...
+
+$SSL_EditExpressions_0	表情のデータ (弱)
+$SSL_EditExpressions_1	表情のデータ (強)
+$SSL_MoodType	気分の種類
+$SSL_MoodStrength	気分の強さ
+$SSL_Phoneme	口の形 (音素)
+$SSL_Modifier	顔の動き (モディファイア)
+
+$SSL_PrevPhase	<< 前の段階
+$SSL_NextPhase	次の段階 >>
+
+# ------ Sync lips config
+$SSL_SyncLipsConfig	口パク
+
+$SSL_Sync	同期
+$SSL_Async	非同期
+$SSL_LipsSoundTime	口パクの動き方
+$SSL_LipsSoundTimeHighlight	同期: 喘ぎ声の再生が終わってから口を閉じ始めます。\n非同期: 音の状態に関係なく、少し待ってから口を閉じます。
+$SSL_bLipsFixedValue	口パクの強さを固定
+$SSL_bLipsFixedValueHighlight	快感が上がるにつれて口パクを強くするかどうかです。
+
+# ------------------ Strip Item Editor --------------------------------------------------
+$SSL_StripEditor	脱衣アイテムの編集
+
+$SSL_Equipment{}	装備 - {}
+$SSL_FullInventory	所持品をすべて表示
+$SSL_FullInventoryHighlight	アクターの所持品をすべて表示し、脱衣の扱いを編集できるようにします
+$SSL_AlwaysRemove	常に脱がす
+$SSL_NeverRemove	脱がさない
+$SSL_StripItemSlots{}	装備スロット: {}
+
+
+# ------------------ Rebuild & Clean --------------------------------------------------
+$SSL_RebuildClean	デバッグ
+$SSL_Installation	インストール
+
+$SSL_bDebugMode	デバッグモード
+$SSL_bDebugModeHighlight	スレッドとシーンの情報を、ログに追加で出力します。\nフレームワークの動作が遅くなることがありますが、問題の調査に役立ちます。
+$SSL_StopCurrentAnimations	実行中のアニメーションを停止
+$SSL_StopCurrentAnimationsHighlight	プレイヤーが参加しているかどうかに関係なく、実行中の SexLab のスレッドをすべて停止します
+$SSL_StopRunningAnimations	実行中のアニメーションをすべて停止しています
+$SSL_ResetStripOverrides	脱衣の個別設定をリセット
+$SSL_ResetStripOverridesHighlight	ユーザーが設定した脱衣の個別設定をすべてリセットします
+$SSL_CleanSystem	フレームワークを再初期化
+$SSL_CleanSystemHighlight	SexLab を再インストールします。おすすめしません！
+$SSL_WarnCleanSystem	フレームワークを再インストールし、スクリプト内部のデータのほとんどをリセットします。続けますか？
+$SSL_Resetting	リセット中...
+$SSL_CurrentlyInstalling	SexLab を初期化しています...
+$SSL_ForceRegisterVoices	レガシー: 登録を強制する
+$SSL_ForceRegisterVoicesHighlight	以前は SexLab が送っていた MOD イベントを送ります。このイベントは、他の MOD に独自の声や表情を登録してよいことを知らせるものです。(重要: SexLab P+ はこのイベントをもう送りません。このイベントを必要とする MOD を使っている場合は、この項目を使う必要があります)
+
+$RegistryInfo	登録の状況
+$SSL_Animations	アニメーション
+$SSL_Voices	声
+$SSL_Expressions	表情
+
+# ------ Available Strap-ons
+$SSL_AvailableStrapons	使えるストラップオン
+$SSL_RebuildStraponList	ストラップオンの一覧を作り直す
+$SSL_RebuildStraponListHighlight	フレームワークが使えるストラップオンの一覧を更新します
+$SSL_FoundStrapon	ストラップオンを見つけて、使えるように保存しました
+$SSL_NoStrapons	対応するストラップオンの MOD が見つかりませんでした
+$SSL_toggleStraponHighlight	クリックすると、SexLab がこのストラップオンを使わないようにします
+
+
+# ------------------ Legacy --------------------------------------------------
+$SSL_Neutral	ふつう
+$SSL_Unsullied	けがれなき者
+$SSL_CleanCut	清廉
+$SSL_PrimProper	品行方正
+$SSL_Virtuous	貞淑
+$SSL_EverFaithful	一途
+$SSL_Ladylike	淑女
+$SSL_Lordly	紳士
+$SSL_Saintly	聖人
+$SSL_Experimenting	興味津々
+$SSL_UnusuallyHorny	やけに欲情
+$SSL_Promiscuous	奔放
+$SSL_SexualDeviant	性的倒錯者
+$SSL_Debaucherous	放蕩者
+$SSL_Nymphomaniac	色情狂
+$SSL_Depraved	堕落者
+$SSL_Hypersexual	性欲過剰
+$RESTARTING	設定中
+$Mod Running?	襲撃者あり？
+$Criminal?	襲撃は犯罪?
+$SSLRSCrimeEnabledInfo	チェックされている場合、友人未満のNPCによる襲撃は暴力犯罪として通報されます。
+$Moral?	道徳的NPC
+$SSLRSMoralSwitchInfo	チェックされている場合、モラル値の高い衛兵や商店主はほとんど襲撃に参加しなくなります。
+$Sexuality Filter	性別による補正確率
+$MxFFilter	男x女
+$FxMFilter	女x男
+$MxMFilter	男x男
+$FxFFilter	女x女
+$MxFFilterInfo	男性から女性への襲撃発生率に対する倍率です。0%に設定するとこの組み合わせでの襲撃は発生しません。
+$FxMFilterInfo	女性から男性への襲撃発生率に対する倍率です。0%に設定するとこの組み合わせでの襲撃は発生しません。
+$MxMFilterInfo	男性から男性への襲撃発生率に対する倍率です。0%に設定するとこの組み合わせでの襲撃は発生しません。
+$FxFFilterInfo	女性から女性への襲撃発生率に対する倍率です。0%に設定するとこの組み合わせでの襲撃は発生しません。
+$HomosexualFilter	同性襲撃フィルター
+$HomosexualFilterInfo	同性襲撃が発生する設定の場合に、どのNPCがその行動に出るかを限定するフィルターです。\n0だとほとんどすべての市民が同性襲撃を行います。4の場合は決まった相手のいるNPCがそのように振舞います(ただし「その相手」を襲うとは限りません)。この値はSexLab Frameworkの初期設定方法に則り、lowestRelationshipRankがこの値以上のNPCをバイセクシャル志向と見なすためのものです。
+$GenderAnimation	性別固有アニメーション
+$SSLRSGenderAnimationInfo	チェックされている場合、参加者の性別に応じたアニメーションを選択します。女性対女性の場合は"Lesbian"タグ付きのアニメーション、男性対男性の場合は"Anal"または"Gay"タグ付きのアニメーションを選択します。
+$Speed %	消耗の早さ %
+$SSLRSSpeedFactorInfo	この値は行為による消耗の早さをパーセンテージで決定します。200に設定すると通常の二倍の速さで消耗します。ただし行為の切り替えタイミングが早くなるわけではありません。そちらはSexLabフレームワーク側で設定してください。
+$Overall Magnitude	全体倍率
+$SSLRSMagnitudeInfo	この値は全体の効力を倍率で定義します。0にするとNPCによる襲撃は起きず、2にすると2倍の頻度で起きるようになります。
+$Naked %	裸の襲撃率 %
+$SSLRSNakedRateInfo	この値は裸の被害者に対する襲撃の発生率を定義します。50の場合目撃した二人に一人は襲撃を試みます。
+$Light Level Threshold	明暗の境界値
+$SSLRSLightLevelInfo	この値は襲撃者が行動を起こす明るさの最大レベルです。被害者がこの値が示すより暗い場所に居残れば、襲撃者は攻撃を開始します。
+$Player Assault %	プレイヤー襲撃率 %
+$SSLRSPlayerAssaultInfo	この値は恋人(RelationshipRank 4)や主人(あなたを既に屈服させた人)があなたのところへ来て肉体的奉仕を要求する頻度を定義します。
+$Non Lover Nor Master Mod %	義務のない相手への補正 %
+$SSLRSNonLoverNorMasterInfo	この値は恋人でも主人でもないが仲間(RelationshipRank 3)である相手があなたを襲う確率補正値です。仲間は(プレイヤー襲撃率%)x(この値%)の確率であなたのところへ来ます。
+$NPC Courting %	NPC求愛率 %
+$SSLRSCourtingInfo	この値は愛し合うNPCカップルが交わる確率を定義します。
+$Random Rape %	通りすがり襲撃率 %
+$SSLRSRandomInfo	この値は通りすがりの襲撃者の発生確率を定義します。
+$Custom	カスタム
+$No NPC Aggressors	NPC襲撃者なし
+$Less Taking Turns	チェーンは勘弁
+$Obscure Sex Life	秘め事
+$Default	デフォルト
+$SSLRSPresetInfo	このプルダウンはプリセットです。\nカスタム: 自由設定\nNPC襲撃者なし: プレイヤーだけがこの魔法を使います。\nNPC間のみ襲撃: プレイヤーから、およびNPC間でのみ襲撃します。\nチェーンは勘弁: 裸に対する反応度を下げ、連続での襲撃発生を抑えます。\n秘め事: 襲撃はより暗い場所でのみひそやかに起きるようになります。\nデフォルト: 作者の設定です。
+$Preset	プリセット
+$General/Common Options	一般/共通
+$Player Victim Possibility	プレイヤー被害者設定
+$NPC Victim Possibility	NPC被害者設定
+$Player Naked %	裸のプレイヤーの襲撃率 %
+$SSLRSPlayerNakedRateInfo	この値は裸のプレイヤーに対する襲撃の発生率を定義します。50の場合目撃した二人に一人は襲撃を試みます。
+$Aggressors against NPCs Only	NPC間のみ襲撃
+$Setting	設定

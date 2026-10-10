@@ -1,0 +1,48 @@
+.vs
+.vscode/*
+!.vscode/c_cpp_properties.json
+*.code-workspace
+build/
+/vcpkg_installed
+scripts/**/out/
+.xmake
+vsxmake2022
+CppProperties.json
+meta.ini
+*.rar
+*.zip
+*.7z
+*.esp
+*.sublime-project
+*.sublime-workspace
+*.bsa
+*.slr
+*.dll
+*.pdb
+*.pex
+
+__pycache__/
+.venv
+
+.env*
+!.env.example
+dist/SexLab.esm
+SexLab.ppj
+
+# Windows / editor temporary files
+Thumbs.db
+desktop.ini
+*.bak
+*.orig
+*.tmp
+*~
+
+# logs
+*.log
+
+# xmake: Visual Studio projects of any version (vsxmake2022, vsxmake2026, ...)
+vsxmake*/
+
+# CMake builds (CommonLib can also be built with CMake)
+CMakeUserPresets.json
+lib/CommonLibSSE-NG/build/

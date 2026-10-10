@@ -1,0 +1,56 @@
+FormKey: 1058E3:SexLab.esm
+EditorID: SSLRSCriminalPulse
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: "çŠ¯ç½ªè€…ã\x81®é¼“å‹•"
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- NoRecast
+- PowerAffectsMagnitude
+MagicSkill: Destruction
+Unknown1: 28524
+MinimumSkillLevel: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+CastType: FireAndForget
+TargetType: TargetActor
+DualCastScale: 1
+CastingSoundLevel: Silent
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 10FA89:SexLab.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    RunOnType: Target
+    Object: 000007:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 10FA89:SexLab.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 10FA89:SexLab.esm
+  ComparisonValue: 2

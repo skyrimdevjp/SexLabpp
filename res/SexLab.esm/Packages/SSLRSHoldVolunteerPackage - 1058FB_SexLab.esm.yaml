@@ -1,0 +1,78 @@
+FormKey: 1058FB:SexLab.esm
+EditorID: SSLRSHoldVolunteerPackage
+FormVersion: 43
+Flags:
+- PreferredSpeed
+- AlwaysSneak
+Type: Package
+PreferredSpeed: FastWalk
+InteruptFlags:
+- HellosToPlayer
+- RandomConversations
+- AggroRadiusBehavior
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInCombatConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 0
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsSneakingConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 0
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsWeaponMagicOutConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 0
+OwnerQuest: 1058DD:SexLab.esm
+PackageTemplate: 019B2C:Skyrim.esm
+DataInputVersion: 4
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetAlias
+      Alias: 7
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 128
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 150
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+XnamMarker: 0x09
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

@@ -1,0 +1,127 @@
+//   #define MCM_SETTING(STR, DEFAULT) ...
+
+MCM_SETTING(bDebugMode, false)
+MCM_SETTING(bCreatureGender, false)
+MCM_SETTING(bAllowCreatures, false)
+MCM_SETTING(bRedressVictim, true)
+MCM_SETTING(bUseLipSync, false)
+MCM_SETTING(bUseExpressions, true)
+MCM_SETTING(bDisablePlayer, false)
+MCM_SETTING(bAutoTFC, false)
+MCM_SETTING(bAutoAdvance, true)
+MCM_SETTING(bOrgasmEffects, true)
+MCM_SETTING(bShowInMap, false)
+MCM_SETTING(bSetAnimSpeedByEnjoyment, false)
+MCM_SETTING(bDisableTeleport, true)
+MCM_SETTING(bDisableScale, false)
+MCM_SETTING(bUndressAnimation, false)
+MCM_SETTING(bSubmissivePlayer, false)
+MCM_SETTING(bSubmissiveTarget, false)
+MCM_SETTING(bMatchMakerActive, false)
+MCM_SETTING(bLipsFixedValue, true)
+MCM_SETTING(bEnjInterText, false)
+MCM_SETTING(bAdjustStage, true)
+
+MCM_SETTING(bHideHUD, true)
+MCM_SETTING(bElementAnimSpeed, true)
+MCM_SETTING(bElementEnjBars, true)
+MCM_SETTING(bElementOffsetAdjust, true)
+MCM_SETTING(bElementSceneSelect, true)
+MCM_SETTING(bElementThreadConfig, true)
+
+MCM_SETTING(iAskBed, 1)
+MCM_SETTING(iNPCBed, 1)
+MCM_SETTING(iUseFade, 1)
+MCM_SETTING(iClimaxType, 2)
+MCM_SETTING(iLipsSoundTime, 1)
+
+MCM_SETTING(iLovenseStrength, 10)
+MCM_SETTING(iLovenseStrengthOrgasm, 20)
+MCM_SETTING(fLovenseDurationOrgasm, 8.0f)
+
+MCM_SETTING(fMenuScaleMult, 1.0f)
+MCM_SETTING(fMenuTextScaleMult, 1.0f)
+MCM_SETTING(fAdjustStepSize, 0.5f)
+MCM_SETTING(fShakeStrength, 0.7f)
+MCM_SETTING(fAutoSUCSM, 5.0f)
+MCM_SETTING(fMaleVoiceDelay, 5.0f)
+MCM_SETTING(fFemaleVoiceDelay, 4.0f)
+MCM_SETTING(fVoiceVolume, 1.0f)
+MCM_SETTING(fSFXDelay, 3.0f)
+MCM_SETTING(fSFXVolume, 1.0f)
+
+MCM_SETTING(bUseCum, true)
+MCM_SETTING(fCumTimer, 180.0f)
+MCM_SETTING(fCumAlpha, 1.0f)
+MCM_SETTING(bSwimmingCleans, true)
+
+MCM_SETTING(sRequiredTags, ""s)
+MCM_SETTING(sExcludedTags, ""s)
+MCM_SETTING(sOptionalTags, ""s)
+
+MCM_SETTING(iStripForms, std::vector<int>({ 1032555423, 1, 1032555423, 1, 806420, 0, 352928413, 1 }))
+MCM_SETTING(fTimers, std::vector<float>({ 10.0f, 15.0f, 25.0f, 7.0f }))
+
+// KeyBinds/Global Hotkeys
+MCM_SETTING(iToggleFreeCamera, 0x51)       // Numpad 3
+MCM_SETTING(iTargetActor, 0x31)            // N
+MCM_SETTING(iToggleThreadControl, 0x15)    // Y
+
+// KeyBinds/Scene Control Related
+MCM_SETTING(iToggleSceneHUD, 0x35)         // Slash
+MCM_SETTING(iFocusSceneHUD, 0xB8)          // Right Alt
+MCM_SETTING(iToggleSceneGraph, 0x9C)       // Numpad Enter
+MCM_SETTING(iKeyAdvance, 0x39)             // Space
+MCM_SETTING(iKeyEnd, 0xCF)                 // End
+MCM_SETTING(iKeyMod, 0x2A)                 // Shift
+MCM_SETTING(iChangeAnimation, 0x18)        // O
+MCM_SETTING(iMoveScene, 0x25)              // K
+
+// VRIK Related
+MCM_SETTING(bHasVRIK, false)
+MCM_SETTING(bVRGestures, true)
+MCM_SETTING(bVRGestureHaptics, true)
+MCM_SETTING(bVRScaleBody, true)
+MCM_SETTING(bVROrgasmFX, true)
+MCM_SETTING(iPOVModeVR, 2)
+MCM_SETTING(bLockHeightVR, true)
+MCM_SETTING(bTrackHeadVR, true)
+MCM_SETTING(iTrackHandsVR, 1)
+MCM_SETTING(fHeightAdjSpeedVR, 1.0f)
+MCM_SETTING(fDistHideHeadVR, 16.0f)
+MCM_SETTING(fDistNearClipVR, 2.0f)
+MCM_SETTING(fLockHmdDistance, 2.0f)
+MCM_SETTING(fLockHmdTolerance, 20.0f)
+MCM_SETTING(fLockHmdSpeed, 20.0f)
+
+// Enjoyment Related
+
+MCM_SETTING(bInternalEnjoymentEnabled, true)
+MCM_SETTING(bGameEnabled, true)
+
+MCM_SETTING(bFallbackToTagsForDetection, true)
+MCM_SETTING(bNoStaminaEndsScene, false)
+MCM_SETTING(bMaleOrgasmEndsScene, false)
+MCM_SETTING(bDomMustOrgasm, true)
+MCM_SETTING(bPlayerMustOrgasm, true)
+MCM_SETTING(bHighEnjOrgasmWait, true)
+MCM_SETTING(iMaxNoPainOrgasmMale, 1)
+MCM_SETTING(iMaxNoPainOrgasmFemale, 2)
+MCM_SETTING(iNoPainRequiredTime, 30)
+MCM_SETTING(iNoPainRequiredXP, 50)
+
+MCM_SETTING(fEnjRaiseMultInter, 0.8f)
+MCM_SETTING(fEnjMultVictim, 0.8f)
+MCM_SETTING(fEnjMultAggressor, 1.2f)
+MCM_SETTING(fEnjMultSub, 0.8f)
+MCM_SETTING(fEnjMultDom, 1.2f)
+MCM_SETTING(fPainHugePPMult, 0.5f)
+
+MCM_SETTING(iGameRaiseEnjKey, 0x100)       // RMB
+MCM_SETTING(iGameHoldbackKey, 0x101)       // LMB
+
+MCM_SETTING(iEnjGameStaminaCost, 10)
+MCM_SETTING(iEnjGameMagickaCost, 10)
+MCM_SETTING(iGameEnjAdjAmount, 1)
+MCM_SETTING(bGameRequiredOnHighEnj, false)
+MCM_SETTING(bGameSpamDelayPenalty, false)

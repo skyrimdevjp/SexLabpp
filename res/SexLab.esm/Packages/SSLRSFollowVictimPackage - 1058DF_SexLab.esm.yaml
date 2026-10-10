@@ -1,0 +1,95 @@
+FormKey: 1058DF:SexLab.esm
+EditorID: SSLRSFollowVictimPackage
+FormVersion: 43
+Flags:
+- PreferredSpeed
+Type: Package
+PreferredSpeed: FastWalk
+Unknown: 100
+InteruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInCombatConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsSneakingConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsWeaponMagicOutConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 3
+OwnerQuest: 1058DD:SexLab.esm
+DataInputVersion: 3
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Place to Travel
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: AliasForReference
+        Data: 3
+      Radius: 100
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Ride Horse if possible?
+    Flags:
+    - Public
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Prefer Preferred Path?
+    Flags:
+    - Public
+XnamMarker: 0x05
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 1
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Travel
+  Flags: []
+  DataInputIndices:
+  - 0
+  - 2
+  - 4
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference
