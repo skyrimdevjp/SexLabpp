@@ -1,0 +1,31 @@
+FormKey: 10182D:SexLab.esm
+EditorID: SexLabRapeSpellBuff
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: æ€§çš„è§£æ”¾
+EquipmentType: 013F45:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: "çª\x81ç„¶ã\x81®æŠµæŠ—ã\x81§ã\x81\x8Dã\x81ªã\x81„æ€§çš„æŽ¥è§¦ã\x81¯ã€\x81ã\x81‚ã\x81ªã\x81Ÿã\x81®æ­©ã\x81¿ã\x81«æ˜¥ã‚’ã‚‚ã\x81Ÿã‚‰ã\x81™ã\x81§ã\x81—ã‚‡ã\x81†ã€‚"
+Flags:
+- ManualCostCalc
+- PCStartSpell
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+ChargeTime: 0.5
+CastType: FireAndForget
+Effects:
+- BaseEffect: 0D6947:Skyrim.esm
+  Data:
+    Magnitude: 25
+    Duration: 180
+- BaseEffect: 03EAF9:Skyrim.esm
+  Data:
+    Magnitude: 50
+    Duration: 180
+- BaseEffect: 03EAF3:Skyrim.esm
+  Data:
+    Magnitude: 50
+    Duration: 180

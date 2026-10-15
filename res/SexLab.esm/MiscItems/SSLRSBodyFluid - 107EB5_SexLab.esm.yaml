@@ -1,0 +1,11 @@
+FormKey: 107EB5:SexLab.esm
+EditorID: SSLRSBodyFluid
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: "èª°ã\x81‹ã\x81®ä½“æ¶²"
+Model:
+  File: Clutter\Potions\PotionSkooma.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 0BAD13:Skyrim.esm
+Weight: 0.01

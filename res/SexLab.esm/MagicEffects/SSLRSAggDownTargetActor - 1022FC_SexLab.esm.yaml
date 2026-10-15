@@ -1,0 +1,92 @@
+FormKey: 1022FC:SexLab.esm
+EditorID: SSLRSAggDownTargetActor
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SayOnHitByMagicEffectScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CombatTopicToSay
+      Object: 0AB884:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameDaysPassed
+      Object: 000039:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TopicToSay
+      Object: 0AB884:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICastNonHostileTimer
+      Object: 0E0CDC:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Satisfied
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 078098:Skyrim.esm
+- 0424EE:Skyrim.esm
+Flags:
+- Recover
+- DispelWithKeywords
+- NoArea
+- FXPersist
+- PowerAffectsMagnitude
+- Painless
+BaseCost: 3.9
+MagicSkill: Illusion
+Unknown1: 28524
+CastingLight: 07331B:Skyrim.esm
+TaperWeight: 1
+MinimumSkillLevel: 1
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Aggression
+  Type: Calm
+Projectile: 07331D:Skyrim.esm
+CastType: FireAndForget
+TargetType: TargetActor
+CastingArt: 07331A:Skyrim.esm
+HitEffectArt: 07331C:Skyrim.esm
+ImpactData: 073320:Skyrim.esm
+SkillUsageMultiplier: 0.25
+DualCastScale: 1
+Sounds:
+- Sound: 07BBAB:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 07C720:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: "ãƒ¬ãƒ™ãƒ« <mag> ã\x81¾ã\x81§ã\x81®ç”Ÿç‰©ã‚„äººã\x81Œ <dur> ç§’é–“ã€\x81æˆ¦é—˜ã\x81«åŠ ã‚\x8Fã‚‰ã\x81ªã\x81„ã€‚"
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: IsCommandedActorConditionData
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 013796:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 013797:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 035D59:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 01397A:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 86
+  Data:
+    MutagenObjectType: IsUndeadConditionData

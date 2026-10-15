@@ -1,0 +1,21 @@
+FormKey: 1022FB:SexLab.esm
+EditorID: SSLRSFearSpell
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: "æ\x81\x90æ€–"
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 2175
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 1022FA:SexLab.esm
+  Data:
+    Magnitude: 100
+    Duration: 30

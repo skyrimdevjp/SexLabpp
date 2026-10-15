@@ -1,0 +1,26 @@
+FormKey: 1022F8:SexLab.esm
+EditorID: SSLRSDrainStaminaEffect
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: ã‚¹ã‚¿ãƒŸãƒŠä½Žä¸‹
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 065A35:Skyrim.esm
+- 065A32:Skyrim.esm
+Flags:
+- Detrimental
+- DispelWithKeywords
+- Painless
+MagicSkill: Restoration
+Unknown1: 29252
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Stamina
+CastType: FireAndForget
+TargetType: TargetActor
+DualCastScale: 1
+CastingSoundLevel: Normal
+Description:
+  TargetLanguage: English
+  Value: "æ€§çš„ã\x81ªé\x81‹å‹•ã\x81§1ç§’ã\x81”ã\x81¨ã\x81« <mag> ãƒ\x9Dã‚¤ãƒ³ãƒˆã\x81®ã‚¹ã‚¿ãƒŸãƒŠã‚’æ¶ˆè€—ã\x81™ã‚‹ã€‚"

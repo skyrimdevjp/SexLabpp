@@ -1,0 +1,32 @@
+FormKey: 107EB2:SexLab.esm
+EditorID: SSLRSRecipePhilter
+FormVersion: 43
+Items:
+- Item:
+    Item: 063B5F:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 107EB5:SexLab.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown2: 84
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 107EB5:SexLab.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown2: 84
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 063B5F:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 107EB3:SexLab.esm
+WorkbenchKeyword: 0A5CB3:Skyrim.esm
+CreatedObjectCount: 4

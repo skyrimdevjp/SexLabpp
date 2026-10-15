@@ -1,0 +1,25 @@
+FormKey: 1022FE:SexLab.esm
+EditorID: SSLRSCalmSpell
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: Satisfaction
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 2069
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 1022FC:SexLab.esm
+  Data:
+    Magnitude: 100
+    Duration: 30
+- BaseEffect: 11409B:SexLab.esm
+  Data:
+    Magnitude: 40
+    Duration: 30

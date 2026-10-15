@@ -1,0 +1,120 @@
+FormKey: 1012C7:SexLab.esm
+EditorID: SexLabActorSelectTarget
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sslrapespelleffect
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Aggressors
+      Objects:
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 10
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 13
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 14
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 15
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 6
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorCuirass
+      Object: 06C0EC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothingBody
+      Object: 0A8657:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: NPCAggressors
+      Objects:
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 8
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 16
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 17
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 18
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 0
+      - Name: ''
+        Object: 1058DD:SexLab.esm
+        Alias: 4
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: OngoingVictimArray
+      Objects:
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 5
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 7
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 6
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRapeSpell
+      Object: 100D62:SexLab.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerVictim
+      Object: 100D62:SexLab.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: RapeSpellArray
+      Objects:
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 1
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 3
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 2
+      - Name: ''
+        Object: 100D62:SexLab.esm
+        Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SexLabRapeSpellBuff
+      Object: 10182D:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SexLabRapeSpellTarget
+      Object: 1012C5:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SexLabRSPush
+      Object: 1022F4:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: "ãƒ‘ãƒ¼ãƒˆãƒŠãƒ¼ã\x81®æ\x8D•ç\x8D²"
+Flags:
+- NoRecast
+- Painless
+MagicSkill: Illusion
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+TargetType: TargetActor
+DualCastScale: 1
+EquipAbility: 10182D:SexLab.esm
+CastingSoundLevel: Silent
+Description:
+  TargetLanguage: English
+  Value: "ã‚¹ã‚«ã‚¤ãƒªãƒ ã\x81®æ„›ã\x81¯ã\x81“ã\x81“ã\x81§ç”Ÿã\x81\x8Dã‚‹äººã€…ã\x81¨å\x90Œã\x81˜ã\x81\x8Fã‚‰ã\x81„çœŸå‰£ã\x81§ã€\x81é•·ã\x81„æ±‚æ„›ã\x81®ä½™åœ°ã\x81Œã\x81»ã\x81¨ã‚“ã\x81©ã\x81‚ã‚Šã\x81¾ã\x81›ã‚“ã€‚è‚‰ä½“ã\x81§ã\x81®ä¼šè©±ã‚’è©¦ã\x81—ã\x81¦ã\x81\x8Fã\x81 ã\x81•ã\x81„ã€‚"

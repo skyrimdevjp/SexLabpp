@@ -1,0 +1,60 @@
+FormKey: 107EB0:SexLab.esm
+EditorID: SSLRSPhilterEffect
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sslrsphiltereffectscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorTypeCreature
+      Object: 013795:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorTypeNPC
+      Object: 013794:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ForcedPlayerRaper
+      Object: 1058DD:SexLab.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ForcedRaper
+      Object: 1058DD:SexLab.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: playerAlly
+      Object: 1058DD:SexLab.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RandomRaper
+      Object: 1058DD:SexLab.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RandomVictim
+      Object: 1058DD:SexLab.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSRaperQuest
+      Object: 1058DD:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSTrueCalmSpell
+      Object: 113071:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VolunteerVictim
+      Object: 1058DD:SexLab.esm
+      Alias: 7
+Name:
+  TargetLanguage: English
+  Value: åªšè–¬
+Flags:
+- NoMagnitude
+- NoArea
+- Painless
+Unknown1: 12574
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Normal
+Description:
+  TargetLanguage: English
+  Value: "ã‚¹ãƒ—ãƒªã‚¬ãƒ³ã\x81®æ¨¹æ¶²ã\x81¨èª°ã\x81‹ã\x81®ä½“æ¶²ã\x81‹ã‚‰ä½œã‚‰ã‚Œã‚‹åªšè–¬ã\x81§ã€\x81ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã\x81¯ã\x81‚ã\x81ªã\x81Ÿã\x81«çŒ›çƒˆã\x81«å¼•ã\x81\x8Dã\x81¤ã\x81‘ã‚‰ã‚Œã\x81¾ã\x81™ã€‚"

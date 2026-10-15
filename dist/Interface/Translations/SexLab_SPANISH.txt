@@ -1,0 +1,699 @@
+# --------------- Global -----------------------------------------------------
+$SSL_ClickHere	Haz clic aquí
+$SSL_Random	Aleatorio
+$SSL_Never	Nunca
+$SSL_Sometimes	A veces
+$SSL_Everything	Todo
+$SSL_Always	Siempre
+$SSL_Unknown	Desconocido
+$SSL_Remove	Eliminar
+$SSL_Seconds	{0} segundos
+$SSL_Male	Hombre
+$SSL_Female	Mujer
+$SSL_Futa	Futa
+$SSL_Creature	Criatura
+$SSL_NoTarget	(Sin objetivo)
+$SSL_Apply	Aplicar
+$SSL_Enabled	Activado
+$SSL_PrevPage	<< PÁGINA ANTERIOR
+$SSL_NextPage	PÁGINA SIGUIENTE >>
+$SSL_Low	Bajo
+$SSL_High	Alto
+$SSL_ConflictControl{}{}	Esta tecla ya está asignada a:\n{} ({})\n\n¿Seguro que quieres continuar?
+$SSL_ConflictControl{}	Esta tecla ya está asignada a:\n{}\n\n¿Seguro que quieres continuar?
+$SSL_KeyCannotBeDisabled	Esta tecla es obligatoria y no puede desactivarse.
+$SSL_TSModeSelect	Categoría de escenas
+$SSL_TSModeSelectHighlight	Elige la categoría de escenas para la cual se configuran las opciones de desvestido en esta página
+
+# --------------- Races -----------------------------------------------------
+
+$SSL_Creatures	Criaturas
+$SSL_Humans	Humanos
+
+$SSL_Race_0	Humanos
+$SSL_Race_1	Ash Hopper
+$SSL_Race_2	Oso
+$SSL_Race_3	Jabalí
+$SSL_Race_4	Jabalí montado
+$SSL_Race_5	Jabalí individual
+$SSL_Race_6	Cánido
+$SSL_Race_7	Chaurus
+$SSL_Race_8	Cazador Chaurus
+$SSL_Race_9	Segador Chaurus
+$SSL_Race_10	Gallina
+$SSL_Race_11	Vaca
+$SSL_Race_12	Ciervo
+$SSL_Race_13	Perro
+$SSL_Race_14	Dragón
+$SSL_Race_15	Sacerdote dragón
+$SSL_Race_16	Draugr
+$SSL_Race_17	Balista dwemer
+$SSL_Race_18	Centurión dwemer
+$SSL_Race_19	Esfera dwemer
+$SSL_Race_20	Araña dwemer
+$SSL_Race_21	Falmer
+$SSL_Race_22	Atronach de fuego
+$SSL_Race_23	Zorro
+$SSL_Race_24	Atronach de escarcha
+$SSL_Race_25	Gárgola
+$SSL_Race_26	Gigante
+$SSL_Race_27	Araña gigante
+$SSL_Race_28	Cabra
+$SSL_Race_29	Hagraven
+$SSL_Race_30	Conejo
+$SSL_Race_31	Horker
+$SSL_Race_32	Caballo
+$SSL_Race_33	Espectro de hielo
+$SSL_Race_34	Araña grande
+$SSL_Race_35	Lurker
+$SSL_Race_36	Mamut
+$SSL_Race_37	Cangrejo de lodo
+$SSL_Race_38	Netch
+$SSL_Race_39	Riekling
+$SSL_Race_40	Sable felino
+$SSL_Race_41	Seeker
+$SSL_Race_42	Skeever
+$SSL_Race_43	Pez asesino
+$SSL_Race_44	Araña
+$SSL_Race_45	Spriggan
+$SSL_Race_46	Atronach de tormenta
+$SSL_Race_47	Trol
+$SSL_Race_48	Señor vampiro
+$SSL_Race_49	Hombre lobo
+$SSL_Race_50	Wisp
+$SSL_Race_51	Madre de las wisps
+$SSL_Race_52	Lobo
+
+# --------------- Sex Journal (Sex Diary) -----------------------------------------------------
+$SSL_SexJournal	Diario sexual
+$SSL_SexDiary	Diario íntimo
+
+$SSL_StatSelectingMenu	Visualizando estadísticas
+$SSL_StatSelectingMenuHighlight	Referencia seleccionada cuyas estadísticas se están mostrando actualmente.
+
+$SSL_Reset{}Stats	Restablecer estadísticas de {}
+$SSL_ResetStatHighlight	Elimina al actor seleccionado del registro de estadísticas, restableciendo sus estadísticas (predeterminadas y personalizadas).
+$SSL_WarnReset{}Stats	Esto restablecerá toda la experiencia y estadísticas sexuales de {}. ¿Deseas continuar?
+
+# ------ Statistics
+$SSL_Statistics	Estadísticas
+
+$SSL_LastTimeInScene	Fecha de la última escena
+$SSL_TimeInScenes	Tiempo en escenas
+$SSL_Statistic_2	Experiencia vaginal
+$SSL_Statistic_3	Experiencia anal
+$SSL_Statistic_4	Experiencia oral
+
+$SSL_Unskilled	Inexperto
+$SSL_Novice	Novato
+$SSL_Apprentice	Aprendiz
+$SSL_Journeyman	Intermedio
+$SSL_Expert	Experto
+$SSL_Master	Maestro
+$SSL_GrandMaster	Gran maestro
+
+$SSL_Statistic_5	Parejas: Hombre
+$SSL_Statistic_6	Parejas: Mujer
+$SSL_Statistic_7	Parejas: Futa
+$SSL_Statistic_8	Parejas: Criatura
+
+$SSL_Sexuality	Sexualidad
+$SSL_SexualityHighlight	Haz clic para cambiar la sexualidad de este actor.
+
+$SSL_Lesbian	Lesbiana
+$SSL_Gay	Gay
+$SSL_Bisexual	Bisexual
+$SSL_Heterosexual	Heterosexual
+
+$SSL_Statistic_9	Veces oral
+$SSL_Statistic_10	Veces vaginal
+$SSL_Statistic_11	Veces anal
+$SSL_Statistic_12	Veces masturbado
+$SSL_Statistic_13	Veces sumiso
+$SSL_Statistic_14	Veces dominante
+$SSL_Statistic_15	Veces totales
+
+# ----------------- Animation Settings ---------------------------------------------------
+$SSL_AnimationSettings	Ajustes de animación
+
+# ------ Player settings
+$SSL_PlayerSettings	Ajustes del jugador
+
+$SSL_bAutoAdvance	Avance automático de etapas
+$SSL_bAutoAdvanceHighlight	Las animaciones avanzarán automáticamente por tiempo cuando el jugador esté involucrado.
+$SSL_bDisablePlayer	Desactivar controles de víctima
+$SSL_bDisablePlayerHighlight	Cuando el jugador sea la víctima en una animación, los controles de animación no estarán disponibles.
+$SSL_bAutoTFC	Cámara libre automática
+$SSL_bAutoTFCHighlight	Si está activado, se habilitará automáticamente la cámara libre (TFC) al iniciar una animación con el jugador.
+$SSL_fAutoSUCSM	Velocidad de cámara libre
+$SSL_fAutoSUCSMHighlight	Al iniciar la cámara libre, esta será la velocidad predeterminada de movimiento.
+$SSL_PlayerSex	Sexo del jugador
+$SSL_{}Sex	Sexo de {}
+$SSL_SexSelectHighlight	Cómo SexLab interpreta el sexo de este actor. Se usa para determinar en qué posiciones puede participar durante escenas. No afecta directamente su comportamiento o apariencia.
+
+# ------ Extra effects
+$SSL_ExtraEffects	Efectos extra
+
+$SSL_ClimaxType	Tipo de clímax
+$SSL_ClimaxTypeHighlight	Comportamiento de los clímax durante las escenas.
+$SSL_Climax_0	Escena (etapas de orgasmo)
+$SSL_Climax_1	Clásico (fin de animación)
+$SSL_Climax_2	Separado (SLSO)
+
+$SSL_bOrgasmEffects	Efectos de orgasmo
+$SSL_bOrgasmEffectsHighlight	Si está activado, se reproducirán sonidos de orgasmo en cada actor y se aplicará vibración de cámara en el orgasmo del jugador.
+$SSL_fShakeStrength	Intensidad de vibración de cámara
+$SSL_fShakeStrengthHighlight	Si "Efectos de orgasmo" está activado, define la intensidad de la vibración de cámara en el orgasmo del jugador.\nPonlo en "0" para desactivarlo.
+$SSL_bUseCum	Aplicar efectos de semen
+$SSL_bUseCumHighlight	Aplica un efecto visual de semen al personaje receptor/víctima después del orgasmo de una pareja masculina/agresora.
+$SSL_fCumTimer	Duración del efecto
+$SSL_fCumTimerHighlight	Define cuánto tiempo se mostrará el efecto anterior en el personaje.
+$SSL_bUseExpressions	Aplicar expresiones faciales
+$SSL_bUseExpressionsHighlight	Aplica presets de MFG al actor durante la animación, aumentando según el progreso y las habilidades del personaje. ADVERTENCIA: Puede causar errores visuales si se combina con sincronización labial.
+$SSL_bUseLipSync	Sincronización labial
+$SSL_bUseLipSyncHighlight	Cuando un actor emite sonidos, se reproducirá una animación básica de movimiento de boca. ADVERTENCIA: Puede fallar si se combina con expresiones MFG.
+
+# ------ Lovense
+$SSL_Lovense	Lovense
+$SSL_iLovenseStrength	Intensidad predeterminada
+$SSL_iLovenseStrengthHighlight	Intensidad de vibración de dispositivos Lovense durante escenas. Solo aplica si el jugador participa.
+$SSL_iLovenseStrengthOrgasm	Intensidad en orgasmo
+$SSL_iLovenseStrengthOrgasmHighlight	Intensidad de vibración tras un orgasmo. Solo aplica a los orgasmos del jugador.
+$SSL_iLovenseDurationOrgasm	Duración del orgasmo
+$SSL_iLovenseDurationOrgasmHighlight	Cuánto dura la vibración antes de reiniciarse tras un orgasmo.
+
+# ------ Creatures
+$SSL_bAllowCreatures	Permitir animaciones con criaturas
+$SSL_bAllowCreaturesHighlight	Permite usar criaturas en animaciones.
+$SSL_bCreatureGender	Coincidir sexo de criaturas
+$SSL_bCreatureGenderHighlight	Define si SexLab diferencia entre criaturas macho y hembra.\nNormalmente, SexLab trata a todas las criaturas como machos.
+
+# ------ Animation Handling
+$SSL_AnimationHandling	Gestión de animaciones
+
+$SSL_UseFade	Usar fundido
+$SSL_UseFadeHighlight	Aplica un efecto visual al inicio de la animación.
+$SSL_UseBlur	Desenfoque
+$SSL_UseBlack	Negro
+$SSL_bUndressAnimation	Animación de desvestido
+$SSL_bUndressAnimationHighlight	Los actores reproducirán una animación al desvestirse.
+$SSL_bRedressVictim	Vestir a la víctima
+$SSL_bRedressVictimHighlight	Las víctimas no se vestirán automáticamente al terminar la animación.
+$SSL_bDisableTeleport	Desactivar teletransporte inicial
+$SSL_bDisableTeleportHighlight	Al iniciar la animación, los actores intentarán acercarse antes de comenzar completamente.
+$SSL_bShowInMap	Mostrar escenas en el mapa
+$SSL_bShowInMapHighlight	Muestra un marcador de misión para cada escena cercana (excepto las del jugador).
+$SSL_bSetAnimSpeedByEnjoyment	Velocidad según disfrute
+$SSL_bSetAnimSpeedByEnjoymentHighlight	La velocidad de la animación cambia según el disfrute del actor (+/-20%).
+# TODO: $SSL_bEnjInterText
+$SSL_bEnjInterText	Enjoyment Interaction Text
+# TODO: $SSL_bEnjInterTextHighlight
+$SSL_bEnjInterTextHighlight	Toggles the current interactions string for SceneHUD's enjoyment bars.
+# TODO: $SSL_AdjustStage
+$SSL_AdjustStage	Adjust Stage Only
+# TODO: $SSL_AdjustStageHighlight
+$SSL_AdjustStageHighlight	Toggles whether all edits to position/stage offsets will apply for currently playing stage only.
+# TODO: $SSL_fAdjustStepSize
+$SSL_fAdjustStepSize	Offset Step Size
+# TODO: $SSL_fAdjustStepSizeHighlight
+$SSL_fAdjustStepSizeHighlight	Determines the step size for offset adjustments.
+$SSL_bHideHUD	Ocultar HUD del juego
+$SSL_bHideHUDHighlight	Oculta la interfaz del juego, no la de escena.
+$SSL_FurnitureNPC	Uso de mobiliario: NPC
+$SSL_FurnitureNPCHighlight	Decide cómo los NPC usan muebles. Específicamente, si usan escenas con muebles en lugar de normales cuando estén disponibles.
+$SSL_AskNotSub	Preguntar (si no es sumiso)
+$SSL_AskAlways	Preguntar (siempre)
+$SSL_FurniturePlayer	Uso de mobiliario: Jugador
+$SSL_FurniturePlayerHighlight	Decide cuándo usar escenas con muebles. Sobrescribe la configuración de NPC en escenas con el jugador. Las opciones "Preguntar" abren un menú. Si eres sumiso, se aplican las reglas de NPC.
+
+# ---- COMEBACK: Might delete
+$SSL_bDisableScale	Desactivar escalado / Corrección CTD
+$SSL_bDisableScaleHighlight	¡¡¡ Activar solo si es necesario !!!\nDesactiva todos los usos internos de SetScale() en SexLab, lo cual puede causar cierres inesperados (CTD) al iniciar animaciones en algunos usuarios. Puede que algunos escalados sigan ocurriendo por otros medios (como mobiliario), los cuales SexLab no podrá corregir mientras esto esté activado. Los resultados pueden variar.
+
+# ----------------- Voices & SFX ---------------------------------------------------
+$SSL_SoundSettings	Voces y efectos
+
+$SSL_fSFXVolume	Volumen de efectos
+$SSL_fSFXVolumeHighlight	Volumen general de efectos desde 0.0 (silencio) hasta 1.0 (máximo).
+$SSL_fSFXDelay	Retardo de efectos
+$SSL_fSFXDelayHighlight	Los efectos de sonido comenzarán con este intervalo y disminuirán en cada etapa.
+$SSL_fVoiceVolume	Volumen de voz
+$SSL_fVoiceVolumeHighlight	Volumen general de voces desde 0.0 (silencio) hasta 1.0 (máximo).
+$SSL_fMaleVoiceDelay	Retardo voz masculina
+$SSL_fMaleVoiceDelayHighlight	Las voces masculinas comenzarán con este intervalo y disminuirán en cada etapa.
+$SSL_fFemaleVoiceDelay	Retardo voz femenina
+$SSL_fFemaleVoiceDelayHighlight	Las voces femeninas comenzarán con este intervalo y disminuirán en cada etapa.
+
+$SSL_CachedVoices	Voces en caché
+$SSL_SelectVoiceCache	Actor seleccionado
+$SSL_SelectVoiceCacheHighlight	Actor cuya voz estás viendo actualmente.
+$SSL_SelectVoiceCacheV	Voz del actor
+$SSL_SelectVoiceCacheVHighlight	Voz de SexLab usada por este actor.\nSi no se selecciona manualmente, se asigna la primera vez que participa en una animación.
+
+$SSL_ToggleVoices	Activar/Desactivar voces
+$SSL_ActiveVoices	Voces visibles
+$SSL_ActiveVoicesHighlight	Voces que estás visualizando actualmente, filtradas por la raza seleccionada.
+
+$SSL_FemaleAverage	[SL] Femenina promedio
+$SSL_FemaleBreathy	[SL] Femenina suave
+$SSL_FemaleClassic	[SL] Femenina clásica
+$SSL_FemaleExcitable	[SL] Femenina excitada
+$SSL_FemaleMature	[SL] Femenina madura
+$SSL_FemaleQuiet	[SL] Femenina silenciosa
+$SSL_FemaleStimulated	[SL] Femenina estimulada
+$SSL_FemaleYoung	[SL] Femenina joven
+$SSL_FemaleFlat	[SL] Femenina plana
+$SSL_FemaleRebellious	[SL] Femenina rebelde
+$SSL_FemaleRebellious2	[SL] Femenina rebelde (Alt)
+$SSL_FemaleRough	[SL] Femenina ruda
+$SSL_FemaleSeductive	[SL] Femenina seductora
+$SSL_FemaleShy	[SL] Femenina tímida
+$SSL_FemaleShy2	[SL] Femenina tímida (Alt)
+$SSL_FemaleWarrior	[SL] Femenina guerrera
+
+$SSL_MaleAverage	[SL] Masculina promedio
+$SSL_MaleCalm	[SL] Masculina calmada
+$SSL_MaleNeutral	[SL] Masculina neutral
+$SSL_MaleRough	[SL] Masculina ruda
+
+$SSL_ChaurusVoice01	[SL] Chaurus (predeterminado)
+$SSL_DogVoice01	[SL] Perro (predeterminado)
+$SSL_DraugrVoice01	[SL] Draugr (predeterminado)
+$SSL_FalmerVoice01	[SL] Falmer (predeterminado)
+$SSL_GiantVoice01	[SL] Gigante (predeterminado)
+$SSL_HorseVoice01	[SL] Caballo (predeterminado)
+$SSL_SprigganVoice01	[SL] Spriggan (predeterminado)
+$SSL_TrollVoice01	[SL] Trol (predeterminado)
+$SSL_WerewolfVoice01	[SL] Hombre lobo (predeterminado)
+$SSL_WolfVoice01	[SL] Lobo (predeterminado)
+
+# ------------------Player Hotkeys--------------------------------------------------
+$SSL_PlayerHotkeys	Atajos del jugador
+
+# ------ Global SexLab Hotkeys
+$SSL_GlobalHotkeys	Atajos globales de SexLab
+
+$SSL_iTargetActor	Seleccionar actor para editar
+$SSL_iTargetActorHighlight	Tras pulsar esta tecla, apunta con la mira a un actor hasta recibir notificación. Luego podrás editarlo en varios menús.
+$SSL_iToggleFreeCamera	Alternar cámara libre
+$SSL_iToggleFreeCameraHighlight	Activa/desactiva la cámara libre (igual que TFC). Funciona siempre, incluso fuera de animaciones.
+# TODO: $SSL_iToggleThreadControl
+$SSL_iToggleThreadControl	Toggle Thread Control
+
+# ------ Scene Manipulation
+$SSL_SceneManipulation	Control de escena
+
+# TODO: $SSL_iToggleSceneHUD
+$SSL_iToggleSceneHUD	Toggle SceneHUD
+# TODO: $SSL_iFocusSceneHUD
+$SSL_iFocusSceneHUD	Focus SceneHUD
+# TODO: $SSL_iToggleSceneGraph
+$SSL_iToggleSceneGraph	Toggle Scene Graph
+$SSL_iKeyAdvance	Avanzar escena / Seleccionar
+$SSL_iKeyEnd	Finalizar escena / Atrás
+$SSL_iKeyMod	Modificador
+# TODO: $SSL_iKeyModHighlight
+$SSL_iKeyModHighlight	Toggles alternative effect for other hotkeys.\nNext/Prev: ChangePartner, AdvanceStage.\nAdjustTarget: EnjRaise, EnjHoldback.\nThe hotkeys changing their mode to "AdjustTarget" with ModifierKey affect Player on their own.
+$SSL_iChangeAnimation	Cambiar animación
+$SSL_iMoveScene	Mover escena
+
+# ------------------- Timers & Stripping -------------------------------------------------
+$SSL_TimersStripping	Tiempos y desvestido
+
+# ------ Timers
+$SSL_Timers	Tiempos
+$SSL_StageTimer_0	Duración etapa 1
+$SSL_StageTimer_1	Duración etapa 2
+$SSL_StageTimer_2	Duración etapa 3
+$SSL_StageTimer_3	Duración etapa final
+
+# ------ Stripping
+$SSL_Stripping	Desvestido
+
+$SSL_DefaultStripping	Escenas estándar
+$SSL_DominantStripping	Escenas dominantes
+
+$SSL_StrippingFst_0	Actores masculinos
+$SSL_StrippingSnd_0	Actores femeninos 
+$SSL_StrippingFst_1	Actores dominantes
+$SSL_StrippingSnd_1	Actores sumisos
+$SSL_ExtraSlots	Ranuras extra (pueden no estar bien etiquetadas)
+
+$SSL_Strip_0	[30] Cabeza
+$SSL_Strip_1	[31] Cabello
+$SSL_Strip_2	[32] Torso
+$SSL_Strip_3	[33] Manos
+$SSL_Strip_4	[34] Antebrazos
+$SSL_Strip_5	[35] Amuleto
+$SSL_Strip_6	[36] Anillo
+$SSL_Strip_7	[37] Pies
+$SSL_Strip_8	[38] Pantorrillas
+$SSL_Strip_9	[39] Escudo
+$SSL_Strip_10	[40] Cola
+$SSL_Strip_11	[41] Cabello largo
+$SSL_Strip_12	[42] Diadema
+$SSL_Strip_13	[43] Orejas
+$SSL_Strip_14	[44] Cara/Boca
+$SSL_Strip_15	[45] Cuello
+$SSL_Strip_16	[46] Pecho
+$SSL_Strip_17	[47] Espalda
+$SSL_Strip_18	[48] Ranura misc
+$SSL_Strip_19	[49] Pelvis/Ropa exterior
+$SSL_Strip_20	[50] Cabeza decapitada
+$SSL_Strip_21	[51] Decapitación
+$SSL_Strip_22	[52] Pelvis/Ropa interior
+$SSL_Strip_23	[53] Piernas/Pierna derecha
+$SSL_Strip_24	[54] Piernas/Pierna izquierda
+$SSL_Strip_25	[55] Cara/Joyería
+$SSL_Strip_26	[56] Pecho/Ropa interior
+$SSL_Strip_27	[57] Hombros
+$SSL_Strip_28	[58] Brazos/Brazo izquierdo/Ropa interior
+$SSL_Strip_29	[59] Brazos/Brazo derecho/Ropa exterior
+$SSL_Strip_30	[60] *Cuerpos 3BA
+$SSL_Strip_31	[61] *Efectos mágicos
+$SSL_Weapons	[--] Armas
+
+# ------------------ Toggle Animations --------------------------------------------------
+$SSL_ToggleAnimations	Activar/Desactivar animaciones
+$SSL_TogglePackage	Filtrar por paquete de animaciones
+$SSL_TogglePackageHighlight	Filtra únicamente las animaciones de un paquete/módulo específico
+$SSL_ToggleGroup	Filtrar por grupo
+$SSL_togglecategoryHighlight	Filtra animaciones por categoría (humano/criatura)
+$SSL_ToggleVisible	Activar/Desactivar visibles
+$SSL_ToggleVisibleHighlight	Activa o desactiva todas las animaciones filtradas en esta página
+$SSL_TagFilter	Filtrar por etiquetas
+$SSL_toggletagsHighlight	Filtra animaciones mediante etiquetas
+$SSL_Page{}{}	Página {}/{}
+
+
+# ------------------ Matchmaker --------------------------------------------------
+$SSL_MatchMaker	Matchmaker
+
+$SSL_ToggleMatchMaker	Activar Matchmaker
+$SSL_ToggleMatchMakerHighlight	Activa Matchmaker. Se añadirán hechizos al menú de hechizos
+
+# ------ Tag Settings
+$SSL_MatchMakerTagsSettings	Configuración de etiquetas
+$SSL_InputTags	Etiquetas:
+$SSL_matchmakerInputTagsHighlight	Cadena de etiquetas resultante basada en las entradas de abajo
+$SSL_InputRequiredTags	Etiquetas requeridas:
+$SSL_matchmakerInputRequiredTagsHighlight	Lista de etiquetas separadas por comas; todas deben estar presentes simultáneamente en las escenas filtradas
+$SSL_InputExcludedTags	Etiquetas excluidas:
+$SSL_matchmakerInputExcludedTagsHighlight	Lista de etiquetas separadas por comas; ninguna debe estar presente en las escenas filtradas
+$SSL_InputOptionalTags	Etiquetas opcionales:
+$SSL_matchmakerInputOptionalTagsHighlight	Lista de etiquetas separadas por comas; al menos una debe estar presente en las escenas filtradas
+$SSL_TextResetTags	Restablecer etiquetas
+$SSL_TextResetTagsHighlight	Restablece todos los campos de etiquetas
+$SSL_ResetTagsHere	Haz clic
+$SSL_TagResetAreYouSure	Restablecer todas las etiquetas, ¿estás seguro?
+
+# ------ Actor Settings
+$SSL_MatchMakerActorSettings	Configuración de actores
+$SSL_bSubmissivePlayer	Jugador sumiso
+$SSL_bSubmissivePlayerHighlight	Filtra escenas donde el jugador está en posición sumisa
+$SSL_bSubmissiveTarget	Objetivo sumiso
+$SSL_bSubmissiveTargetHighlight	Filtra escenas donde el actor objetivo está en posición sumisa
+
+# ------------------ Enjoyment --------------------------------------------------
+$SSL_EnjoymentSettings	Configuración de disfrute
+# TODO: $SSL_EnjPrimarySettings
+$SSL_EnjPrimarySettings	Primary Settings
+# TODO: $SSL_EnjGeneralConfigs
+$SSL_EnjGeneralConfigs	General Configs
+# TODO: $SSL_EnjGameConfigs
+$SSL_EnjGameConfigs	Game Configs
+# TODO: $SSL_EnjPainConfigs
+$SSL_EnjPainConfigs	Pain Configs
+# TODO: $SSL_EnjGameHotkeys
+$SSL_EnjGameHotkeys	Game Hotkeys
+# TODO: $SSL_EnjMiscRateMult
+$SSL_EnjMiscRateMult	Misc Rate Mult
+
+# ------ Primary Settings
+$SSL_bInternalEnjoymentEnabled	Activar sistema de disfrute interno
+$SSL_bInternalEnjoymentEnabledHighlight	Activa el sistema interno de disfrute. Debería permanecer activado salvo que otro mod externo controle completamente este sistema.
+$SSL_fEnjRaiseMultInter	Multiplicador de aumento (interacciones)
+$SSL_fEnjRaiseMultInterHighlight	Multiplicador principal que determina la velocidad a la que aumenta el disfrute según las interacciones detectadas. Valores altos = aumento más rápido.\nPuede reducirse a 0 si se desea que dependa solo del minijuego.
+$SSL_bGameEnabled	Activar minijuego de disfrute
+$SSL_bGameEnabledHighlight	Activa el minijuego de disfrute inspirado en SLSO.
+
+# ------ General Configs
+$SSL_bFallbackToTagsForDetection	Permitir uso de etiquetas como respaldo
+$SSL_bFallbackToTagsForDetectionHighlight	Permite usar etiquetas de posición como respaldo cuando no está disponible la detección física en tiempo real.
+$SSL_bNoStaminaEndsScene	Sin resistencia termina escena
+$SSL_bNoStaminaEndsSceneHighlight	Finaliza la escena automáticamente cuando la resistencia del actor se agota.
+$SSL_bMaleOrgasmEndsScene	Orgasmo masculino termina escena
+$SSL_bMaleOrgasmEndsSceneHighlight	Finaliza la escena tras el primer orgasmo masculino.
+$SSL_bDomMustOrgasm	El dominante debe terminar
+$SSL_bDomMustOrgasmHighlight	Requiere que el actor dominante alcance el orgasmo antes de finalizar la escena.\nLa escena continúa cambiando a animaciones similares hasta que ocurra.
+$SSL_bPlayerMustOrgasm	El jugador debe terminar
+$SSL_bPlayerMustOrgasmHighlight	Requiere que el jugador alcance el orgasmo antes de finalizar la escena.\nLa escena continúa cambiando a animaciones similares hasta que ocurra.
+$SSL_bHighEnjOrgasmWait	Esperar alto disfrute
+$SSL_bHighEnjOrgasmWaitHighlight	La escena continúa si el disfrute es >75 o si el actor está en estado de "edging", sin importar el número de orgasmos.\nSe mantiene cambiando a animaciones similares hasta que ocurra.
+$SSL_iMaxNoPainOrgasmMale	Máx orgasmos sin dolor (masculino)
+$SSL_iMaxNoPainOrgasmMaleHighlight	Número de orgasmos antes de aplicar penalización por dolor en actores masculinos. Superado este límite, cada orgasmo aumenta el dolor progresivamente.
+$SSL_iMaxNoPainOrgasmFemale	Máx orgasmos sin dolor (femenino)
+$SSL_iMaxNoPainOrgasmFemaleHighlight	Número de orgasmos antes de aplicar penalización por dolor en actores femeninos/futa. Superado este límite, cada orgasmo aumenta el dolor progresivamente.
+$SSL_iNoPainRequiredTime	Tiempo de reducción de dolor
+$SSL_iNoPainRequiredTimeHighlight	Tiempo en segundos necesario para que los efectos de dolor disminuyan durante la escena.
+$SSL_iNoPainRequiredXP	XP para evitar dolor
+$SSL_iNoPainRequiredXPHighlight	Cantidad de experiencia anal y vaginal necesaria para evitar efectos de dolor por interacciones.
+
+# ------ Misc Multipliers
+$SSL_fEnjMultVictim	Multiplicador de disfrute: Víctima
+$SSL_fEnjMultVictimHighlight	Multiplicador adicional de aumento de disfrute para actores en rol de víctima.\n(Nota: El estado de víctima se define por el contexto de la escena, no por etiquetas.)
+$SSL_fEnjMultAggressor	Multiplicador de disfrute: Agresor
+$SSL_fEnjMultAggressorHighlight	Multiplicador adicional de aumento de disfrute para actores en rol de agresor.\n(Nota: El estado de agresor se define por el contexto de la escena, no por etiquetas.)
+$SSL_fEnjMultSub	Multiplicador de disfrute: Sumiso
+$SSL_fEnjMultSubHighlight	Multiplicador adicional de aumento de disfrute para actores sumisos.\n(Nota: El rol sumiso se define por las flags de SLSB, no por etiquetas.)
+$SSL_fEnjMultDom	Multiplicador de disfrute: Dominante
+$SSL_fEnjMultDomHighlight	Multiplicador adicional de aumento de disfrute para actores dominantes/no sumisos.\n(Nota: El rol dominante se define por las flags de SLSB, no por etiquetas.)
+$SSL_fPainHugePPMult	Multiplicador de dolor: tamaño grande
+$SSL_fPainHugePPMultHighlight	Factor adicional que aumenta el dolor en actores en posición receptora durante interacciones de penetración con actores de tamaño grande. Actualmente usado solo con ciertas criaturas.
+
+# ------ Game Configs
+$SSL_iEnjGameStaminaCost	Coste de resistencia del minijuego
+$SSL_iEnjGameStaminaCostHighlight	Cantidad de RESISTENCIA que se consume en una acción relevante del minijuego.
+$SSL_iEnjGameMagickaCost	Coste de magia del minijuego
+$SSL_iEnjGameMagickaCostHighlight	Cantidad de MAGIA que se consume en una acción relevante del minijuego.
+# TODO: $SSL_iGameEnjAdjAmount
+$SSL_iGameEnjAdjAmount	Enjoyment Adjust Amount
+# TODO: $SSL_iGameEnjAdjAmountHighlight
+$SSL_iGameEnjAdjAmountHighlight	The amount of enjoyment increased or depleted upon a relevant minigame action.
+$SSL_bGameRequiredOnHighEnj	Requerir minijuego con alto disfrute
+$SSL_bGameRequiredOnHighEnjHighlight	Desactiva el aumento de disfrute por detección de colisiones cuando supera 80.\nCon esto activo, el jugador deberá usar el minijuego para alcanzar el orgasmo.
+$SSL_bGameSpamDelayPenalty	Penalización por spam/tiempo incorrecto
+$SSL_bGameSpamDelayPenaltyHighlight	Aplica penalizaciones de disfrute, resistencia y magia por intentos mal sincronizados.\n(Importante: Solo funciona junto con la opción anterior.)
+
+# ------ Game Hotkeys
+$SSL_iGameRaiseEnjKey	Tecla aumentar disfrute
+$SSL_iGameRaiseEnjKeyHighlight	Aumenta manualmente el disfrute a costa de resistencia. Para afectar al jugador, combinar con la tecla modificadora.\nAl llegar a 90, sirve para mantener el estado de “edging”, requiriendo pulsaciones precisas.
+$SSL_iGameHoldbackKey	Tecla reducir disfrute
+$SSL_iGameHoldbackKeyHighlight	Reduce manualmente el disfrute a costa de magia. Para afectar al jugador, combinar con la tecla modificadora.
+
+# ------------------ Expression Editor --------------------------------------------------
+$SSL_ExpressionEditor	Editor de expresiones
+
+$SSL_DialogueMood_0	Diálogo: Ira
+$SSL_DialogueMood_1	Diálogo: Miedo
+$SSL_DialogueMood_2	Diálogo: Feliz
+$SSL_DialogueMood_3	Diálogo: Triste
+$SSL_DialogueMood_4	Diálogo: Sorpresa
+$SSL_DialogueMood_5	Diálogo: Confusión
+$SSL_DialogueMood_6	Diálogo: Asco
+$SSL_DialogueMood_7	Ánimo neutral
+$SSL_DialogueMood_8	Ánimo: Ira
+$SSL_DialogueMood_9	Ánimo: Miedo
+$SSL_DialogueMood_10	Ánimo: Feliz
+$SSL_DialogueMood_11	Ánimo: Triste
+$SSL_DialogueMood_12	Ánimo: Sorpresa
+$SSL_DialogueMood_13	Ánimo: Confusión
+$SSL_DialogueMood_14	Ánimo: Asco
+$SSL_DialogueMood_15	Combate: Ira
+$SSL_DialogueMood_16	Combate: Grito
+
+$SSL_Phoneme_0	0: Aah
+$SSL_Phoneme_1	1: Aah grande
+$SSL_Phoneme_2	2: BMP
+$SSL_Phoneme_3	3: ChjSh
+$SSL_Phoneme_4	4: DST
+$SSL_Phoneme_5	5: Eee
+$SSL_Phoneme_6	6: Eh
+$SSL_Phoneme_7	7: FV
+$SSL_Phoneme_8	8: i
+$SSL_Phoneme_9	9: k
+$SSL_Phoneme_10	10: N
+$SSL_Phoneme_11	11: Oh
+$SSL_Phoneme_12	12: OohQ
+$SSL_Phoneme_13	13: R
+$SSL_Phoneme_14	14: Th
+$SSL_Phoneme_15	15: W
+
+$SSL_Modifier_0	0: Parpadeo izq
+$SSL_Modifier_1	1: Parpadeo der
+$SSL_Modifier_2	2: Ceja abajo izq
+$SSL_Modifier_3	3: Ceja abajo der
+$SSL_Modifier_4	4: Ceja hacia dentro izq
+$SSL_Modifier_5	5: Ceja hacia dentro der
+$SSL_Modifier_6	6: Ceja arriba izq
+$SSL_Modifier_7	7: Ceja arriba der
+$SSL_Modifier_8	8: Mirar abajo
+$SSL_Modifier_9	9: Mirar izquierda
+$SSL_Modifier_10	10: Mirar derecha
+$SSL_Modifier_11	11: Mirar arriba
+$SSL_Modifier_12	12: Entrecerrar izq
+$SSL_Modifier_13	13: Entrecerrar der
+
+$SSL_ScaleMode_Linear	Lineal
+$SSL_ScaleMode_Square	Cuadrático
+$SSL_ScaleMode_Cubic	Cúbico
+$SSL_ScaleMode_Exponential	Exponencial
+
+$SSL_ModifyingExpression	Modificando expresión
+$SSL_enableexpressionHighlight	Activa o desactiva la expresión actual
+$SSL_ExpressionScaling	Función de escala
+$SSL_ExpressionsNormal	Disponible en escenas normales
+$SSL_ExpressionsVictim	Disponible como sumiso
+$SSL_ExpressionsAggressor	Disponible como dominante
+$SSL_ExpressionScalingHighlight	Comportamiento de la escala según el progreso del disfrute.\nLineal: aumento constante\nCuadrático: aumento rápido al inicio, luego lento, con pico final\nCúbico: inicio lento, aumento progresivo\nExponencial: inicio muy lento, crecimiento rápido al final
+$SSL_EditFemale	Editar datos femeninos
+$SSL_TestOnPlayer	Probar en el jugador
+
+$SSL_WarnTestExpression{}	Probando expresión en {}. ¿Continuar?
+$SSL_WarnTestExpressionLowOrHight	¿Probar perfil bajo (izquierda) o alto (derecha)?
+$SSL_WarnTestExpressionWithOpenMouth	¿Probar con la boca abierta?
+$SSL_StartTestExpression{}	Probando expresión {}. Valores se restablecerán en 15 segundos.\nCierra el menú para continuar..
+$SSL_AppliedTestExpression	Expresión aplicada, se revertirá en 15 segundos...
+$SSL_RestoredTestExpression	Expresión restaurada...
+
+$SSL_EditExpressions_0	Datos de expresión (bajo)
+$SSL_EditExpressions_1	Datos de expresión (alto)
+$SSL_MoodType	Tipo de ánimo
+$SSL_MoodStrength	Intensidad del ánimo
+$SSL_Phoneme	Fonema
+$SSL_Modifier	Modificador
+
+$SSL_PrevPhase	<< Fase anterior
+$SSL_NextPhase	Siguiente fase >>
+
+# ------ Sync lips config
+$SSL_SyncLipsConfig	Sincronización labial
+
+$SSL_Sync	Sincronizado
+$SSL_Async	Asíncrono
+$SSL_LipsSoundTime	Comportamiento de labios
+$SSL_LipsSoundTimeHighlight	Sincronizado: Los labios comienzan a cerrarse cuando el sonido termina.\nAsíncrono: Los labios se cierran tras un pequeño retraso, independiente del sonido.
+$SSL_bLipsFixedValue	Intensidad fija de labios
+$SSL_bLipsFixedValueHighlight	Define si la intensidad del movimiento labial aumenta con el nivel de disfrute.
+
+# ------------------ Strip Item Editor --------------------------------------------------
+$SSL_StripEditor	Editor de desvestido
+
+$SSL_Equipment{}	Equipo - {}
+$SSL_FullInventory	Mostrar inventario completo
+$SSL_FullInventoryHighlight	Permite mostrar todos los objetos del inventario del actor para editar su comportamiento al desvestirse
+$SSL_AlwaysRemove	Siempre quitar
+$SSL_NeverRemove	Nunca quitar
+$SSL_StripItemSlots{}	Ranuras Biped: {}
+
+
+# ------------------ Rebuild & Clean --------------------------------------------------
+$SSL_RebuildClean	Debug
+$SSL_Installation	Instalación
+
+$SSL_bDebugMode	Modo debug
+$SSL_bDebugModeHighlight	Activa registros adicionales de hilos y escenas.\nPuede reducir el rendimiento pero ayuda a detectar problemas.
+$SSL_StopCurrentAnimations	Detener animaciones actuales
+$SSL_StopCurrentAnimationsHighlight	Detiene todos los procesos activos de SexLab, sin importar si el jugador participa
+$SSL_StopRunningAnimations	Todas las animaciones activas se están deteniendo
+$SSL_ResetStripOverrides	Restablecer desvestido personalizado
+$SSL_ResetStripOverridesHighlight	Restablece todas las configuraciones personalizadas de desvestido del usuario
+$SSL_CleanSystem	Reinicializar sistema
+$SSL_CleanSystemHighlight	Reinstala SexLab; ¡no recomendado!
+$SSL_WarnCleanSystem	Ejecutar esto reinstalará el sistema y reiniciará la mayoría de datos internos. ¿Deseas continuar?
+$SSL_Resetting	Reiniciando...
+$SSL_CurrentlyInstalling	SexLab se está inicializando...
+$SSL_ForceRegisterVoices	Legacy: Forzar registro
+$SSL_ForceRegisterVoicesHighlight	Envía eventos a mods externos para permitir registrar voces/expresiones.\nIMPORTANTE: SexLab P+ ya no envía estos eventos automáticamente, por lo que esta opción es necesaria para mods que dependan de ello.
+
+$RegistryInfo	Estado del registro
+$SSL_Animations	Animaciones
+$SSL_Voices	Voces
+$SSL_Expressions	Expresiones
+
+# ------ Available Strap-ons
+$SSL_AvailableStrapons	Strap-ons disponibles
+$SSL_RebuildStraponList	Reconstruir lista de strap-ons
+$SSL_RebuildStraponListHighlight	Actualiza la lista de strap-ons disponibles para el sistema
+$SSL_FoundStrapon	Strap-ons encontrados y guardados
+$SSL_NoStrapons	No se encontraron mods de strap-ons compatibles
+$SSL_toggleStraponHighlight	Haz clic para desactivar este strap-on en SexLab
+
+
+# ------------------ Legacy --------------------------------------------------
+$SSL_Neutral	Neutral
+$SSL_Unsullied	Puro
+$SSL_CleanCut	Impecable
+$SSL_PrimProper	Correcto y formal
+$SSL_Virtuous	Virtuoso
+$SSL_EverFaithful	Siempre fiel
+$SSL_Ladylike	Dama refinada
+$SSL_Lordly	Señorial
+$SSL_Saintly	Santo
+$SSL_Experimenting	Experimentando
+$SSL_UnusuallyHorny	Inusualmente excitado
+$SSL_Promiscuous	Promiscuo
+$SSL_SexualDeviant	Desviado sexual
+$SSL_Debaucherous	Degenerado
+$SSL_Nymphomaniac	Ninfómano
+$SSL_Depraved	Depravado
+$SSL_Hypersexual	Hipersexual
+$RESTARTING	Switching...
+$Mod Running?	Raper Enabled?
+$Criminal?	Rape is Crime?
+$SSLRSCrimeEnabledInfo	If checked, assault from non-friend NPC is accused as violent crime.
+$Moral?	NPC is Moral?
+$SSLRSMoralSwitchInfo	If checked, moral NPCs (guards, shop owners, etc.) hardly attempt assault.
+$Sexuality Filter	Sexuality Filter
+$MxFFilter	Male to Female
+$FxMFilter	Female to Male
+$MxMFilter	Male to Male
+$FxFFilter	Female to Female
+$MxFFilterInfo	Possibility filter of assault by male NPC on female NPC.
+$FxMFilterInfo	Possibility filter of assault by female NPC on male NPC.
+$MxMFilterInfo	Possibility filter of assault by male NPC on male NPC.
+$FxFFilterInfo	Possibility filter of assault by female NPC on female NPC.
+$HomosexualFilter	Homosexual Filter
+$HomosexualFilterInfo	This value limits homosexuality to certain NPCs.\n0 to widest and 4 to narrowest group of NPCs can take homosexual action.\nWhen set to 0 almost all NPCs can take homosexual action, while 4 means very limited NPC with specific mate can do so (though victim is not necessarily limited to that mate). Actually NPC with lowestRelationshipRank >= this value can be homosexual (based on seed generation of SexLab Framework).
+$GenderAnimation	Gender Specific Animation
+$SSLRSGenderAnimationInfo	If checked, animation is chosen to suit combination of participants, searching "Lesbian" tag for female on female, "Anal/Gay" tag for male on male.
+$Speed %	Consumption Speed %
+$SSLRSSpeedFactorInfo	This value defines speed of stamina(magicka) consumption by action. Drain speed will be twice faster if this value is set to 200. Please be aware that action will not advance faster by this setting. Timing of switch is under control of SexLab Framework settings.
+$Overall Magnitude	Overall Magnitude
+$SSLRSMagnitudeInfo	This value defines overall magnitude. When set this value to 0, NPC assaults will never happen. If set to 2, NPC assaults will happen twice as often.
+$Naked %	Naked %
+$SSLRSNakedRateInfo	This value defines possibilities of assault against naked victim who is witnessed by potential aggressor.
+$Light Level Threshold	Light Level Threshold
+$SSLRSLightLevelInfo	This value defines threshold light level where aggressor try to take action. If victim stays somewhere darker than this value, aggressor will possibly commence attack.
+$Player Assault %	Player Assault %
+$SSLRSPlayerAssaultInfo	This value defines how often your lover(RelationshipRank is 4) or master(who has already overwhelmed you) will come to you to demand your carnal services.
+$Non Lover Nor Master Mod %	Non Lover Nor Master Mod %
+$SSLRSNonLoverNorMasterInfo	This value defines multiplier to chance of assault from NPCs who are your ally(RelationshipRank is 3) and not your master. In other words your non-master allies have assault chance of (Player Assault %)x(this value %) against you.
+$NPC Courting %	NPC Courting %
+$SSLRSCourtingInfo	This value defines how often courting couples of NPCs will have intercourse.
+$Random Rape %	Random Rate %
+$SSLRSRandomInfo	This value defines how often random aggressor against random victim will arise.
+$Custom	Custom
+$No NPC Aggressors	No NPC Aggressors
+$Less Taking Turns	Less Taking Turns
+$Obscure Sex Life	Obscure Sex Life
+$Default	Default
+$SSLRSPresetInfo	This pulldown provides presets.\nCustom - free setting\nNo NPC Aggressors - Only player can assault others\nAggressors against NPCs Only - Nobody assaults player\nLess Taking Turns - NPCs will be more insensitive to naked victim\nObscure Sex Life - Assault will occur at darker place only\nDefault - Factory setting
+$Preset	Preset
+$General/Common Options	General/Common Options
+$Player Victim Possibility	Player Victim Possibility
+$NPC Victim Possibility	NPC Victim Possibility
+$Player Naked %	Player Naked %
+$SSLRSPlayerNakedRateInfo	This value defines possibilities of assault against naked Player who is witnessed by potential aggressor.
+$Aggressors against NPCs Only	Aggressors against NPCs Only
+$Setting	Setting

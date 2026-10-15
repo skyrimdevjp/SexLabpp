@@ -1,0 +1,17 @@
+FormKey: 10182E:SexLab.esm
+EditorID: SexLabRaperSpellBuffEff
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: æ€§çš„è§£æ”¾
+MenuDisplayObject: 0435A5:Skyrim.esm
+MagicSkill: Restoration
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Normal
+Description:
+  TargetLanguage: English
+  Value: "çª\x81ç„¶ã\x81®æŠµæŠ—ã\x81§ã\x81\x8Dã\x81ªã\x81„æ€§çš„æŽ¥è§¦ã\x81¯ã€\x81ã\x81‚ã\x81ªã\x81Ÿã\x81®æ­©ã\x81¿ã\x81«æ˜¥ã‚’ã‚‚ã\x81Ÿã‚‰ã\x81™ã\x81§ã\x81—ã‚‡ã\x81†ã€‚"

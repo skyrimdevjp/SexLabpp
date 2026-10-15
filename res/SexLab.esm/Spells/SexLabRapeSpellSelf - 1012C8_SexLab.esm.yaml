@@ -1,0 +1,21 @@
+FormKey: 1012C8:SexLab.esm
+EditorID: SexLabRapeSpellSelf
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: "ã\x81Ÿã\x81¾ã‚‰ã\x81ªã\x81„ã\x81»ã\x81©ã\x81®é­…åŠ› - è‡ªåˆ†"
+MenuDisplayObject: 104F70:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PCStartSpell
+- IgnoreResistance
+- NoAbsorbOrReflect
+- NoDualCastModification
+CastType: FireAndForget
+Effects:
+- BaseEffect: 1012CA:SexLab.esm
+  Data:
+    Duration: 1

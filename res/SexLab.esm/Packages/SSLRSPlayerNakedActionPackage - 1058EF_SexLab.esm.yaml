@@ -1,0 +1,191 @@
+FormKey: 1058EF:SexLab.esm
+EditorID: SSLRSPlayerNakedActionPackage
+FormVersion: 43
+Flags:
+- PreferredSpeed
+Type: Package
+PreferredSpeed: Run
+Unknown: 102
+InteruptFlags:
+- FriendlyFireComments
+- AggroRadiusBehavior
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: IsCurrentFurnitureObjConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+    Furniture: 10AF2B:SexLab.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetGraphVariableIntConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+    GraphVariable: bIsRiding
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+    Keyword: 012B24:SexLab.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Flags:
+  - 0x8
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    UsePackageData: True
+    Target: 4
+  ComparisonValue: 150
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsSneakingConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsWeaponMagicOutConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInCombatConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetLightLevelConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+  ComparisonValue: 1058F7:SexLab.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  - 0x8
+  Data:
+    MutagenObjectType: GetRelationshipRankConditionData
+    UsePackageData: True
+    TargetNpc: 4
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+    Keyword: 06C0EC:Skyrim.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetLightLevelConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+  ComparisonValue: 1058F7:SexLab.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  - 0x8
+  Data:
+    MutagenObjectType: GetRelationshipRankConditionData
+    UsePackageData: True
+    TargetNpc: 4
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: PackageData
+    RunOnTypeIndex: 4
+    Keyword: 0A8657:Skyrim.esm
+OwnerQuest: 1058DD:SexLab.esm
+PackageTemplate: 0504F5:Skyrim.esm
+DataInputVersion: 1
+Data:
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: AliasForReference
+        Data: 5
+      Radius: 150
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 1012C5:SexLab.esm
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Type: SingleRef
+    Target:
+      MutagenObjectType: PackageTargetAlias
+      Alias: 5
+- Key: 5
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 0.1
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 0.1
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 0.1
+- Key: 9
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 0.1
+- Key: 10
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 1
+- Key: 11
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 1
+- Key: 12
+  Value:
+    MutagenObjectType: PackageDataBool
+XnamMarker: 0x0D
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

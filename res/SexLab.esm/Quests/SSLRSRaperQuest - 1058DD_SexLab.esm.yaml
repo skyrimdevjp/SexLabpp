@@ -1,0 +1,4097 @@
+FormKey: 1058DD:SexLab.esm
+EditorID: SSLRSRaperQuest
+FormVersion: 43
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 5
+    Scripts:
+    - Name: sslrsvictimscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 1058DD:SexLab.esm
+        Alias: 6
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 3
+    Scripts:
+    - Name: sslrsvictimscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 1058DD:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 1
+    Scripts:
+    - Name: sslrsvictimscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 1058DD:SexLab.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 7
+    Scripts:
+    - Name: sslrsvictimscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 1058DD:SexLab.esm
+        Alias: 8
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 6
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: target
+        Object: 1058DD:SexLab.esm
+        Alias: 5
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 19
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: target
+        Object: 1058DD:SexLab.esm
+        Alias: 5
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 10
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: target
+        Object: 1058DD:SexLab.esm
+        Alias: 5
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 15
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 14
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 13
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 4
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: target
+        Object: 1058DD:SexLab.esm
+        Alias: 1
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 0
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: target
+        Object: 1058DD:SexLab.esm
+        Alias: 3
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 8
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: target
+        Object: 1058DD:SexLab.esm
+        Alias: 7
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 18
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 17
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 1058DD:SexLab.esm
+      Alias: 16
+    Scripts:
+    - Name: sslrsaggressorscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabActive
+        Object: 012B24:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: Rapers
+Flags:
+- 0x1000
+Priority: 95
+QuestFormVersion: 68
+NextAliasID: 20
+Aliases:
+- ID: 5
+  Name: PlayerRef
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: RandomVictim
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Invisibility
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 1058F2:SexLab.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: SpouseAlike
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Invisibility
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInInteriorConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetHighestRelationshipRankConditionData
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 1058F1:SexLab.esm
+  PackageData:
+  - 115B88:SexLab.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: VolunteerVictim
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Invisibility
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 10760A:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06C0EC:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 0A8657:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLightLevelConditionData
+    ComparisonValue: 1058F7:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 10FFEC:SexLab.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: PlayerAlly
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInInteriorConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      UseAliases: True
+      Faction: 33563381
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 1058F2:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      UseAliases: True
+      Faction: 33563381
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 107948:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 1058F0:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E7:SexLab.esm
+  - 1058E5:SexLab.esm
+  - 1058F8:SexLab.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: PlayerAlly000
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInInteriorConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      UseAliases: True
+      Faction: 33563381
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 1058F2:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      UseAliases: True
+      Faction: 33563381
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 107948:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 1058F0:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E7:SexLab.esm
+  - 1058E5:SexLab.esm
+  - 1058F8:SexLab.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: ForcedPlayerRaper
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLightLevelConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1058F7:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 10FFEC:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 06C0EC:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 0A8657:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 10897C:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058EF:SexLab.esm
+  - 10794A:SexLab.esm
+  - 1058F8:SexLab.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: ForcedPlayerRaper002
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLightLevelConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1058F7:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 10FFEC:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 06C0EC:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 0A8657:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 10897C:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058EF:SexLab.esm
+  - 10794A:SexLab.esm
+  - 1058F8:SexLab.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: ForcedPlayerRaper001
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLightLevelConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1058F7:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 10FFEC:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 06C0EC:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 0A8657:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 10897C:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058EF:SexLab.esm
+  - 10794A:SexLab.esm
+  - 1058F8:SexLab.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: ForcedPlayerRaper000
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLightLevelConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1058F7:SexLab.esm
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 10FFEC:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnTypeIndex: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 067CD8:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 06C0EC:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 5
+      Keyword: 0A8657:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 10897C:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058EF:SexLab.esm
+  - 10794A:SexLab.esm
+  - 1058F8:SexLab.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: RoughLover
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 1
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 1
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 1
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 1
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 1
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 1
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasAssociationTypeConditionData
+      UseAliases: True
+      TargetNpc: 1
+      AssociationType: 82630
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasAssociationTypeConditionData
+      UseAliases: True
+      TargetNpc: 1
+      AssociationType: 82629
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasAssociationTypeConditionData
+      UseAliases: True
+      TargetNpc: 1
+      AssociationType: 82631
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E2:SexLab.esm
+  - 1058E1:SexLab.esm
+  - 1058F9:SexLab.esm
+  VoiceTypes: Null
+- Name: RandomRaper
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 3
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      RunOnTypeIndex: 3
+      UseAliases: True
+      TargetNpc: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 3
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.25
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInSceneConditionData
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E0:SexLab.esm
+  - 1058DF:SexLab.esm
+  - 1058FA:SexLab.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: ForcedRaper
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 500
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      RunOnTypeIndex: 7
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 107949:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E9:SexLab.esm
+  - 1058E8:SexLab.esm
+  - 1058FB:SexLab.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: ForcedRaper002
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 500
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      RunOnTypeIndex: 7
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 107949:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E9:SexLab.esm
+  - 1058E8:SexLab.esm
+  - 1058FB:SexLab.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: ForcedRaper001
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 500
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      RunOnTypeIndex: 7
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 107949:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E9:SexLab.esm
+  - 1058E8:SexLab.esm
+  - 1058FB:SexLab.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: ForcedRaper000
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetFactionRankConditionData
+      Faction: 1022F5:SexLab.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0ABDAE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Stamina
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsIgnoringCombatConditionData
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLowestRelationshipRankConditionData
+    ComparisonValue: 110554:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: SameSexConditionData
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110552:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 11054F:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110551:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsSexConditionData
+      MaleFemaleGender: Female
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 110550:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 500
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    - SwapSubjectAndTarget
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetDetectedConditionData
+      RunOnTypeIndex: 7
+      UseAliases: True
+      TargetNpc: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetLineOfSightConditionData
+      UseAliases: True
+      Target: 7
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.5
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 110553:SexLab.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      RunOnType: QuestAlias
+      RunOnTypeIndex: 7
+      MagicEffect: 111ADF:SexLab.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Morality
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 0.8
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRandomPercentConditionData
+    ComparisonValue: 107949:SexLab.esm
+  Spells:
+  - 1012C5:SexLab.esm
+  PackageData:
+  - 1058E9:SexLab.esm
+  - 1058E8:SexLab.esm
+  - 1058FB:SexLab.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: NosyVigil
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - MatchingRefInLoadedArea
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 013794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsChildConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetIsAliasRefConditionData
+      UseAliases: True
+      ReferenceAliasIndex: 3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetRelationshipRankConditionData
+      UseAliases: True
+      TargetNpc: 5
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 17876
+    Data:
+      MutagenObjectType: IsGuardConditionData
+  VoiceTypes: Null

@@ -1,0 +1,20 @@
+FormKey: 1058E4:SexLab.esm
+EditorID: SSLRSCriminalPulseSpell
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: "çŠ¯ç½ªè€…ã\x81®é¼“å‹•"
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 1058E3:SexLab.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 1

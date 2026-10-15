@@ -1,0 +1,464 @@
+FormKey: 100D62:SexLab.esm
+EditorID: SexLabRapeSpell
+FormVersion: 43
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 0
+    Scripts:
+    - Name: sslrapespell
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ForbiddenFactionList
+        Object: 112049:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: OngoingVictim
+        Object: 100D62:SexLab.esm
+        Alias: 9
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 100D62:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLab
+        Object: 000D62:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellBuff
+        Object: 10182D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSAggressDrainSpell
+        Object: 103887:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSBodyFluid
+        Object: 107EB5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCalmSpell
+        Object: 1022FE:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCriminalPulseSpell
+        Object: 1058E4:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSFearSpell
+        Object: 1022FB:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenderAnimation
+        Object: 110555:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenitalQuench
+        Object: 10794D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSLoverFaction
+        Object: 1022F5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSexualInferiorityPerk
+        Object: 1058EA:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSpeedFactor
+        Object: 10AF2C:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSVictimDrainSpell
+        Object: 1022F7:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 1
+    Scripts:
+    - Name: sslrapespell
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ForbiddenFactionList
+        Object: 112049:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: OngoingVictim
+        Object: 100D62:SexLab.esm
+        Alias: 5
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 100D62:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLab
+        Object: 000D62:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellBuff
+        Object: 10182D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSAggressDrainSpell
+        Object: 103887:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSBodyFluid
+        Object: 107EB5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCalmSpell
+        Object: 1022FE:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCriminalPulseSpell
+        Object: 1058E4:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSFearSpell
+        Object: 1022FB:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenderAnimation
+        Object: 110555:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenitalQuench
+        Object: 10794D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSLoverFaction
+        Object: 1022F5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSexualInferiorityPerk
+        Object: 1058EA:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSpeedFactor
+        Object: 10AF2C:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSVictimDrainSpell
+        Object: 1022F7:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 3
+    Scripts:
+    - Name: sslrapespell
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ForbiddenFactionList
+        Object: 112049:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: OngoingVictim
+        Object: 100D62:SexLab.esm
+        Alias: 7
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 100D62:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLab
+        Object: 000D62:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellBuff
+        Object: 10182D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSAggressDrainSpell
+        Object: 103887:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSBodyFluid
+        Object: 107EB5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCalmSpell
+        Object: 1022FE:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCriminalPulseSpell
+        Object: 1058E4:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSFearSpell
+        Object: 1022FB:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenderAnimation
+        Object: 110555:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenitalQuench
+        Object: 10794D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSLoverFaction
+        Object: 1022F5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSexualInferiorityPerk
+        Object: 1058EA:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSpeedFactor
+        Object: 10AF2C:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSVictimDrainSpell
+        Object: 1022F7:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 2
+    Scripts:
+    - Name: sslrapespell
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ForbiddenFactionList
+        Object: 112049:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: OngoingVictim
+        Object: 100D62:SexLab.esm
+        Alias: 6
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 100D62:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLab
+        Object: 000D62:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellBuff
+        Object: 10182D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSAggressDrainSpell
+        Object: 103887:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSBodyFluid
+        Object: 107EB5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCalmSpell
+        Object: 1022FE:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCriminalPulseSpell
+        Object: 1058E4:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSFearSpell
+        Object: 1022FB:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenderAnimation
+        Object: 110555:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenitalQuench
+        Object: 10794D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSLoverFaction
+        Object: 1022F5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSexualInferiorityPerk
+        Object: 1058EA:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSpeedFactor
+        Object: 10AF2C:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSVictimDrainSpell
+        Object: 1022F7:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 4
+    Scripts:
+    - Name: sslrapespell
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeNPC
+        Object: 013794:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ForbiddenFactionList
+        Object: 112049:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: OngoingVictim
+        Object: 100D62:SexLab.esm
+        Alias: 8
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 100D62:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLab
+        Object: 000D62:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellBuff
+        Object: 10182D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSAggressDrainSpell
+        Object: 103887:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSBodyFluid
+        Object: 107EB5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCalmSpell
+        Object: 1022FE:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSCriminalPulseSpell
+        Object: 1058E4:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSFearSpell
+        Object: 1022FB:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenderAnimation
+        Object: 110555:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSGenitalQuench
+        Object: 10794D:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSLoverFaction
+        Object: 1022F5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSexualInferiorityPerk
+        Object: 1058EA:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSpeedFactor
+        Object: 10AF2C:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSVictimDrainSpell
+        Object: 1022F7:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 5
+    Scripts:
+    - Name: SSLRSOngoingVictimScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 100D62:SexLab.esm
+        Alias: 1
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 7
+    Scripts:
+    - Name: SSLRSOngoingVictimScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 100D62:SexLab.esm
+        Alias: 3
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 6
+    Scripts:
+    - Name: SSLRSOngoingVictimScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 100D62:SexLab.esm
+        Alias: 2
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 8
+    Scripts:
+    - Name: SSLRSOngoingVictimScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 100D62:SexLab.esm
+        Alias: 4
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+  - Property:
+      Name: ''
+      Object: 100D62:SexLab.esm
+      Alias: 9
+    Scripts:
+    - Name: SSLRSOngoingVictimScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaperRef
+        Object: 100D62:SexLab.esm
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSSupportSpells
+        Object: 10794B:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: SexLab Match Maker
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 95
+QuestFormVersion: 68
+Filter: SexLab\
+NextAliasID: 10
+Aliases:
+- Name: PlayerRef
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: ActorSelection00
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - Protected
+  VoiceTypes: Null
+- ID: 3
+  Name: ActorSelection01
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - Protected
+  VoiceTypes: Null
+- ID: 2
+  Name: ActorSelection02
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - Protected
+  VoiceTypes: Null
+- ID: 4
+  Name: ActorSelection03
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - Protected
+  VoiceTypes: Null
+- ID: 5
+  Name: VictimRef00
+  Flags:
+  - Optional
+  - Essential
+  VoiceTypes: Null
+- ID: 7
+  Name: VictimRef01
+  Flags:
+  - Optional
+  - Essential
+  VoiceTypes: Null
+- ID: 6
+  Name: VictimRef02
+  Flags:
+  - Optional
+  - Essential
+  VoiceTypes: Null
+- ID: 8
+  Name: VictimRef03
+  Flags:
+  - Optional
+  - Essential
+  VoiceTypes: Null
+- ID: 9
+  Name: PlayerVictim
+  Flags:
+  - Optional
+  - Essential
+  VoiceTypes: Null

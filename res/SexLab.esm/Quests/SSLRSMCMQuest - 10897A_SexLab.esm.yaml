@@ -1,0 +1,111 @@
+FormKey: 10897A:SexLab.esm
+EditorID: SSLRSMCMQuest
+FormVersion: 43
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SSLRSMCMQuestScript
+    Properties:
+    - MutagenObjectType: ScriptStringProperty
+      Name: ModName
+      Data: SexLab RapeSpell
+    - MutagenObjectType: ScriptStringListProperty
+      Name: Pages
+      Data:
+      - $Setting
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSCourtingRateDefault
+      Object: 1058F5:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSCrimeEnabled
+      Object: 10FA89:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSFxFFilter
+      Object: 110552:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSFxMFilter
+      Object: 110551:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSGenderAnimation
+      Object: 110555:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSHomosexualFilter
+      Object: 110554:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSLightLevel
+      Object: 1058F7:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSMagnitude
+      Object: 1058F3:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSMoralSwitch
+      Object: 110553:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSMxFFilter
+      Object: 11054F:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSMxMFilter
+      Object: 110550:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSNakedRate
+      Object: 107949:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSNonLoverNorMasterRate
+      Object: 107948:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSPlayerAssaultRateDefault
+      Object: 1058F6:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSPlayerNakedRate
+      Object: 10897C:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSRandomRateDefault
+      Object: 1058F4:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSSpeedFactor
+      Object: 10AF2C:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSLRSWorldQuest
+      Object: 1058DC:SexLab.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 10897A:SexLab.esm
+      Alias: 0
+    Scripts:
+    - Name: SKI_PlayerLoadGameAlias
+    - Name: sslrsQuestRestartOnPlayerLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: lastRevision
+        Object: 10897B:SexLab.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: quests
+        Objects:
+        - Name: ''
+          Object: 1058DC:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpell
+        Object: 100D62:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SexLabRapeSpellTarget
+        Object: 1012C5:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSAggressDrainSpell
+        Object: 103887:SexLab.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SSLRSVictimDrainSpell
+        Object: 1022F7:SexLab.esm
+Name:
+  TargetLanguage: English
+  Value: SexLab RapeSpell Config
+Flags:
+- StartGameEnabled
+- 0x10
+QuestFormVersion: 69
+NextAliasID: 1
+Aliases:
+- Name: PlayerRef
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null

@@ -1,0 +1,25 @@
+FormKey: 1022F6:SexLab.esm
+EditorID: SSLRSDrainMagickaEffect
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: ãƒžã‚¸ã‚«ä½Žä¸‹
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 065A34:Skyrim.esm
+- 065A33:Skyrim.esm
+Flags:
+- Detrimental
+- DispelWithKeywords
+MagicSkill: Restoration
+Unknown1: 29252
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Magicka
+CastType: FireAndForget
+TargetType: TargetActor
+DualCastScale: 1
+CastingSoundLevel: Normal
+Description:
+  TargetLanguage: English
+  Value: "æ€§çš„ã\x81ªé\x81‹å‹•ã\x81§1ç§’ã\x81”ã\x81¨ã\x81« <mag> ãƒ\x9Dã‚¤ãƒ³ãƒˆã\x81®ãƒžã‚¸ã‚«ã‚’æ¶ˆè€—ã\x81™ã‚‹ã€‚"

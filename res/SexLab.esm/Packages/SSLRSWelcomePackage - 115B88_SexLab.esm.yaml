@@ -1,0 +1,126 @@
+FormKey: 115B88:SexLab.esm
+EditorID: SSLRSWelcomePackage
+FormVersion: 43
+Flags:
+- PreferredSpeed
+Type: Package
+PreferredSpeed: FastWalk
+Unknown: 101
+InteruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    UseAliases: True
+    Target: 4
+  ComparisonValue: 1000
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetRelationshipRankConditionData
+    UseAliases: True
+    TargetNpc: 4
+  ComparisonValue: 3
+OwnerQuest: 1058DD:SexLab.esm
+PackageTemplate: 019717:Skyrim.esm
+DataInputVersion: 6
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearPackageStart
+      Radius: 2000
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectType
+      Type: TouchActorEffects
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 11
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 2
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Data: 0
+- Key: 8
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 18
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 19
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 20
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 21
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 25
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 26
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 300
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 24
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 50
+XnamMarker: 0x1B
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference
