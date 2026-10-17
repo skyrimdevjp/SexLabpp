@@ -539,7 +539,11 @@ namespace Thread
             if (firstDispatch) {
                 const auto& positionInfo = activeScene->GetNthPosition(pending.position);
                 Collision::CollisionHandler::AddActor(pending.actor->GetFormID());
-                Registry::Scale::GetSingleton()->SetScale(pending.actor, positionInfo->data.GetRace(), positionInfo->data.GetScale());
+                if (adultScenes) {
+                    logger::info("Thread/AdvanceScene: ATF disabled scaling for actor {:X}", pending.actor->GetFormID());
+                } else {
+                    Registry::Scale::GetSingleton()->SetScale(pending.actor, positionInfo->data.GetRace(), positionInfo->data.GetScale());
+                }
             }
             ReassertPlacement(pending.position, firstDispatch);
             pending.dispatchAttempts++;

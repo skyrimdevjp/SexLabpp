@@ -116,6 +116,9 @@ namespace Thread
         int32_t GetCurrentPermutation(RE::Actor* a_position);
         bool SetNextPermutation(RE::Actor* a_position);
 
+        bool GetAdultScenes() const { return adultScenes; }
+        void SetAdultScenes(bool a_enabled) { adultScenes = a_enabled; }
+
         template <typename T>
         T GetThreadProperty(const std::string& a_property);
         template <typename T>
@@ -248,6 +251,8 @@ namespace Thread
         static inline std::shared_mutex _mInstances{};
         static inline std::vector<std::unique_ptr<Instance>> instances{};
         static inline std::vector<std::unique_ptr<Instance>> pendingInstances{};
+
+        bool adultScenes{ false };
     };
 
 }  // namespace Thread

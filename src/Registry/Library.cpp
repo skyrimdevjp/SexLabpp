@@ -1,11 +1,53 @@
 #include "Library.h"
 
+#include "Compat/XxsBridge.h"
+#include "Util/Scale.h"
+
 #include "Define/RaceKey.h"
 
 namespace Registry
 {
-    std::vector<const Scene*> Library::LookupScenes(const std::vector<RE::Actor*>& a_actors, const std::vector<std::string_view>& a_tags, const std::vector<RE::Actor*>& a_submissives) const
+    // 参加者に合うシーンを検索する。
+    // ドワーフ、ノーム、カスタムの小柄な成人種族、縮小スケールの成人NPCを小柄な参加者として扱う。
+    // スケールが 0.88 以下。女性は petite_female_count、男性は petite_male_count に設定する。
+    
+    std::vector<const Scene*> Library::LookupScenes(const std::vector<RE::Actor*>& a_actors, const std::vector<std::string_view>& row_tags, const std::vector<RE::Actor*>& a_submissives) const
     {
+        logger::info("Entered LookupScenes with {} actors and {} tags", a_actors.size(), row_tags.size());
+        std::vector<std::string_view> a_tags{ row_tags.begin(), row_tags.end() };
+        uint8_t petite_female_count = 0;
+        uint8_t petite_male_count = 0;
+        for (auto&& a_actor : a_actors) {
+            if (!a_actor)
+                continue;
+            const auto scale = Registry::Scale::GetSingleton()->GetScale(a_actor);
+            const auto sex = Registry::GetSex(a_actor);
+            const bool petite = Compat::IsPetiteForAtf(a_actor);
+            logger::info("LookupScenes actor {:X}: xxsPetite={} engineIsChild={} scale={:.2f} sex={}",
+                a_actor->GetFormID(), petite, a_actor->IsChild(), scale, std::to_underlying(sex));
+            if (petite) {
+                if (sex == Registry::Sex::Male) {
+                    logger::info("LookupScenes detected petite male: {:X}", a_actor->GetFormID());
+                    petite_male_count++;
+                } else if (sex == Registry::Sex::Female) {
+                    logger::info("LookupScenes detected petite female: {:X}", a_actor->GetFormID());
+                    petite_female_count++;
+                }
+            }
+        }
+        logger::info("ATF counts: petite female={} petite male={} of {} actors", petite_female_count, petite_male_count, a_actors.size());
+
+        Compat::AppendAtfDisallowTags(a_tags, petite_female_count, petite_male_count, a_actors.size());
+        if (petite_female_count + petite_male_count == a_actors.size() && !a_actors.empty()) {
+            logger::info("ATF decision: All actors petite -> adult-only disallows [-loli, -shota]");
+        } else if (petite_female_count) {
+            logger::info("ATF decision: Mixed -> petite female present, disallow shota (-shota)");
+        } else if (petite_male_count) {
+            logger::info("ATF decision: Mixed -> petite male present, disallow loli (-loli)");
+        } else {
+            logger::info("ATF decision: No petite actors -> no loli/shota disallows");
+        }
+
         const auto tStart = std::chrono::high_resolution_clock::now();
         ActorFragment::FragmentHash hash;
 #ifndef SKYRIMVR
@@ -30,6 +72,8 @@ namespace Registry
                 return std::move(a) + ", " + b.data();
             });
         }());
+        logger::info("LookupScenes final tags: {}", tagstr);
+
         _hashbuilder.join();
 
         const std::shared_lock lock{ _mScenes };
@@ -181,6 +225,11 @@ namespace Registry
         if (auto saved = GetSavedVoice(a_actor->GetFormID())) {
             return saved;
         }
+        const TagDetails* matchTags = &a_tags;
+        TagDetails                childVoiceTags{ "Young" };
+        if (Compat::IsXxsUtilityLoaded() && Compat::GetXxsFlag_SexlabUseMeForChildVoice() && Compat::IsXxsChild(a_actor, true)) {
+            matchTags = &childVoiceTags;
+        }
         const RaceKey actRace{ a_actor };
         if (!actRace.IsValid()) {
             logger::error("GetVoice: Actor {} has invalid racekey", a_actor->GetFormID());
@@ -192,7 +241,7 @@ namespace Registry
         for (auto&& [name, voice] : voices) {
             if (!voice.enabled || voice.sex != RE::SEXES::kNone && voice.sex != sex)
                 continue;
-            if (!voice.HasRace(actRace) || !a_tags.MatchTags(voice.tags))
+            if (!voice.HasRace(actRace) || !matchTags->MatchTags(voice.tags))
                 continue;
             ret.push_back(&voice);
         }

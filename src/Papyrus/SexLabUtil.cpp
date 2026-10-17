@@ -1,5 +1,9 @@
 #include "Papyrus/SexLabUtil.h"
 
+#include "Compat/XxsBridge.h"
+
+#include "Registry/Util/Scale.h"
+
 namespace Papyrus::SexLabUtil
 {
     bool HasKeywordSub(VM* a_vm, StackID a_stackID, RE::StaticFunctionTag*, RE::TESForm* a_form, std::string_view a_substring)
@@ -91,6 +95,19 @@ namespace Papyrus::SexLabUtil
         return ret;
     };
 
+    bool IsChild(RE::StaticFunctionTag*, RE::Actor* a_actor)
+    {
+        return Compat::IsXxsChild(a_actor, true);
+    };
+
+    RE::BSFixedString GetXxsActorAdjustKey(RE::StaticFunctionTag*, RE::Actor* a_actor)
+    {
+        if (!a_actor) {
+            return "";
+        }
+        return Compat::GetSexLabActorKey(a_actor);
+    };
+
     float GetCurrentGameRealTime(RE::StaticFunctionTag*)
     {
         constexpr auto seconds_per_day = 86400.0f;
@@ -164,6 +181,15 @@ namespace Papyrus::SexLabUtil
                 }
             }
         });
+    };
+
+    RE::TESObjectREFR* GetTarget(RE::StaticFunctionTag*, RE::Actor* a_actor)
+    {
+        if (!a_actor) {
+            return nullptr;
+        }
+        const auto target = a_actor->currentCombatTarget.get();
+        return target.get();
     };
 
 }  // namespace Papyrus::SexLabUtil

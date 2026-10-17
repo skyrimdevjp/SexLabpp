@@ -360,6 +360,8 @@ endProperty
 float _StartedAt
 float _LastOrgasm
 
+string _ActorKey
+
 ; ------------------------------------------------------- ;
 ; --- Alias IDLE                                      --- ;
 ; ------------------------------------------------------- ;
@@ -384,6 +386,7 @@ Auto State Empty
 		EndIf
 		_sex = SexLabRegistry.GetSex(_ActorRef, true)
 		_raceID = SexLabRegistry.GetRaceID(_ActorRef)
+		_ActorKey = SexLabUtil.GetXxsActorAdjustKey(ProspectRef)
 		_ActorRef.SetFactionRank(_AnimatingFaction, 1)
 		TrackedEvent(TRACK_ADDED)
 		GoToState(STATE_SETUP)
@@ -1158,6 +1161,7 @@ Function Initialize()
 	_HomoTypes = Utility.CreateBoolArray(5, false)
 	ResetEnjoymentVariables()
 	_VRIKRestoreInTicks = 0
+	_ActorKey = ""
 EndFunction
 
 Event OnRequestClear(string asEventName, string asStringArg, float afDoStatistics, form akSender)
@@ -1747,6 +1751,7 @@ function Snap()
 endFunction
 
 function SetAdjustKey(string KeyVar)
+	_ActorKey = KeyVar
 endfunction
 function LoadShares()
 endFunction
@@ -1775,6 +1780,15 @@ Function DoStatistics()
 EndFunction
 
 String function GetActorKey()
+	if _ActorKey != ""
+		return _ActorKey
+	endif
+	if _ActorRef
+		Race r = _ActorRef.GetLeveledActorBase().GetRace()
+		if r
+			return MiscUtil.GetRaceEditorID(r)
+		endif
+	endif
 	return ""
 endFunction
 

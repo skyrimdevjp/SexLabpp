@@ -1,5 +1,8 @@
 #include "Thread.h"
 
+#include "Compat/XxsBridge.h"
+#include "Registry/Util/Scale.h"
+
 #include "Registry/Util/RayCast.h"
 #include "Registry/Util/RayCast/ObjectBound.h"
 #include "Registry/Util/RayCast/Offsets.h"
@@ -34,9 +37,65 @@ namespace Thread
         FinalizeInstanceMake();
     }
 
+    // 参加者・シーン・中心参照が揃ったあと、再生するシーンを1つに決める。
+    // ドワーフ、ノーム、カスタムの小柄な成人種族、縮小スケールの成人NPCを小柄な参加者として扱う。
+    // 女性は petite_female_count、男性は petite_male_count に設定する。
+    // 全員が小柄なら、bSmartScale 有効時に成人シーン向けのスケール無効（SetAdultScenes）を設定する。
+    // それ以外は、女性がいれば loli タグ必須、男性がいれば shota タグ必須とし、いない側のタグは除外する。
     void Instance::FinalizeInstanceMake()
     {
         auto& priorityScenes = scenes[SceneType::Custom].empty() ? scenes[SceneType::Primary] : scenes[SceneType::Custom];
+
+        uint8_t petite_female_count = 0;
+        uint8_t petite_male_count = 0;
+        for (auto& pos : positions) {
+            auto* a_actor = pos.data.GetActor();
+            if (!a_actor) {
+                logger::info("Position contains null actor, skipping.");
+                continue;
+            }
+            if (Compat::IsPetiteForAtf(a_actor)) {
+                if (Registry::GetSex(a_actor) == Registry::Sex::Male) {
+                    logger::info("(((((( Detected petite male: {} ({:X}) ))))))", a_actor->GetDisplayFullName(), a_actor->GetFormID());
+                    ++petite_male_count;
+                } else if (Registry::GetSex(a_actor) == Registry::Sex::Female) {
+                    logger::info("(((((( Detected petite female: {} ({:X}) ))))))", a_actor->GetDisplayFullName(), a_actor->GetFormID());
+                    ++petite_female_count;
+                } else {
+                    logger::info("(((((( Detected child with unknown sex: {} ({:X}) ))))))", a_actor->GetDisplayFullName(), a_actor->GetFormID());
+                }
+            } else {
+                logger::info("(((((( Detected adult: {} ({:X}) ))))))", a_actor->GetDisplayFullName(), a_actor->GetFormID());
+            }
+        }
+        logger::info("(((((( Total petite female actors: {}, petite male actors: {}. ))))))", petite_female_count, petite_male_count);
+
+        std::vector<std::string_view> atfTags;
+        Compat::AppendAtfDisallowTags(atfTags, petite_female_count, petite_male_count, positions.size());
+        const Registry::TagDetails atfFilter{ atfTags };
+
+        std::vector<const Registry::Scene*> filteredScenes;
+        if (petite_male_count + petite_female_count == positions.size() && !positions.empty()) {
+            if (Settings::bSmartScale) {
+                SetAdultScenes(true);
+            }
+        }
+        for (const auto& scene : priorityScenes) {
+            if (atfTags.empty() || scene->IsCompatibleTags(atfFilter)) {
+                filteredScenes.push_back(scene);
+            }
+        }
+
+        if (!filteredScenes.empty()) {
+            scenes[SceneType::Custom] = filteredScenes;
+            scenes[SceneType::Primary] = filteredScenes;
+            scenes[SceneType::LeadIn] = filteredScenes;
+            priorityScenes = filteredScenes;
+            logger::info("ATF filtering succeeded. Scenes reduced to {}.", priorityScenes.size());
+        } else {
+            logger::info("ATF filtering failed");
+        }
+
         const auto& centerTy = center.offset.type;
         for (auto&& sceneArr : scenes) {
             const auto removed = std::erase_if(sceneArr, [&](const auto& scene) {

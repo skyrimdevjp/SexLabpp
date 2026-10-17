@@ -12,6 +12,8 @@ namespace Papyrus::SexLabUtil
     float FloatMinMaxValue(RE::StaticFunctionTag*, std::vector<float> arr, bool findHighestValue);
 
     std::vector<RE::Actor*> MakeActorArray(RE::StaticFunctionTag*, RE::Actor* a1, RE::Actor* a2, RE::Actor* a3, RE::Actor* a4, RE::Actor* a5);
+    bool IsChild(RE::StaticFunctionTag*, RE::Actor* a_actor);
+    RE::BSFixedString GetXxsActorAdjustKey(RE::StaticFunctionTag*, RE::Actor* a_actor);
     float GetCurrentGameRealTime(RE::StaticFunctionTag*);
     bool IsGamePausedOrFrozen(RE::StaticFunctionTag*);
     std::string GetTranslation(RE::StaticFunctionTag*, std::string a_str);
@@ -36,6 +38,8 @@ namespace Papyrus::SexLabUtil
         REGISTERFUNC(FloatMinMaxIndex, "SexLabUtil", true);
         REGISTERFUNC(FloatMinMaxValue, "SexLabUtil", true);
         REGISTERFUNC(MakeActorArray, "SexLabUtil", true);
+        REGISTERFUNC(IsChild, "SexLabUtil", true);
+        REGISTERFUNC(GetXxsActorAdjustKey, "SexLabUtil", true);
         REGISTERFUNC(GetCurrentGameRealTime, "SexLabUtil", true);
         REGISTERFUNC(IsGamePausedOrFrozen, "SexLabUtil", true);
         REGISTERFUNC(GetTranslation, "SexLabUtil", true);

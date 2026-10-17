@@ -1,3 +1,4 @@
+#include "Compat/XxsCoreLog.h"
 #include "Papyrus/Papyrus.h"
 #include "Registry/Library.h"
 #include "Registry/Stats.h"
@@ -106,6 +107,7 @@ static void SKSEMessageHandler(SKSE::MessagingInterface::Message* message)
         Registry::Library::GetSingleton()->Initialize();
         Registry::Statistics::StatisticsData::GetSingleton()->Register();
         UserData::StripData::GetSingleton()->Load();
+        Compat::LogXxsCoreStatus();
         break;
     case SKSE::MessagingInterface::kSaveGame:
         std::thread([]() {
@@ -115,7 +117,7 @@ static void SKSEMessageHandler(SKSE::MessagingInterface::Message* message)
         }).detach();
         break;
     case SKSE::MessagingInterface::kPostLoadGame:
-        // EventHandler::GetSingleton()->Register();
+        Compat::LogXxsCoreStatus();
         break;
     }
 }

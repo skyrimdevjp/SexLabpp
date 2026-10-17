@@ -639,6 +639,7 @@ EndFunction
 
 sslActorAlias[] Property ActorAlias Auto
 Actor[] _Positions
+String _AdjustKey = ""
 
 String[] _StageHistory
 int Property Stage Hidden
@@ -863,6 +864,7 @@ State Making
 			Initialize()
 			return none
 		EndIf
+		UpdateAdjustKey()
 		If (!_QuickResetScenes)
 			GoToState(STATE_SETUP_M)
 		EndIf
@@ -2761,7 +2763,13 @@ EndProperty
 
 string Property AdjustKey Hidden
 	String Function Get()
+		if _AdjustKey != ""
+			return _AdjustKey
+		endif
 		return "Global"
+	EndFunction
+	Function Set(string aSet)
+		_AdjustKey = aSet
 	EndFunction
 EndProperty
 
@@ -3171,6 +3179,30 @@ Function SetupActorEvent(Actor ActorRef, string Callback)
 EndFunction
 
 Function UpdateAdjustKey()
+	if !Config.RaceAdjustments
+		_AdjustKey = "Global"
+	else
+		int i = 0
+		string NewKey = ""
+		while i < _Positions.Length
+			sslActorAlias aliasRef = ActorAlias(_Positions[i])
+			if aliasRef
+				NewKey += aliasRef.GetActorKey()
+			endif
+			i += 1
+			if i < _Positions.Length
+				NewKey += "."
+			endif
+		endWhile
+		_AdjustKey = NewKey
+	endif
+	int j = 0
+	while j < 5
+		if ActorAlias[j]
+			ActorAlias[j].SetAdjustKey(_AdjustKey)
+		endif
+		j += 1
+	endWhile
 EndFunction
 
 String Function Key(string Callback)

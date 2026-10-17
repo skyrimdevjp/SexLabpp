@@ -350,6 +350,8 @@ int function IntMinMaxValue(int[] searchArray, bool findHighestValue = true) glo
 int function IntMinMaxIndex(int[] searchArray, bool findHighestValue = true) global native
 float function FloatMinMaxValue(float[] searchArray, bool findHighestValue = true) global native
 int function FloatMinMaxIndex(float[] searchArray, bool findHighestValue = true) global native
+bool function IsChild(Actor akActor) global native
+String function GetXxsActorAdjustKey(Actor akActor) global native
 
 float function GetCurrentGameTimeHours() global
 	return Utility.GetCurrentGameTime() * 24.0
