@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Kagura/Kagura.h"
 #include "Papyrus/sslLibrary/Serialize.h"
 #include "Registry/Stats.h"
 #include "Thread/Collision/CollisionHandler.h"
@@ -73,6 +74,7 @@ namespace Serialization
 
         static void RevertCallback(SKSE::SerializationInterface* a_intfc)
         {
+            Kagura::Shutdown();
             Thread::Collision::CollisionHandler::Clear();
             Thread::FaceAnimator::Clear();
             Registry::Statistics::StatisticsData::GetSingleton()->Revert(a_intfc);
