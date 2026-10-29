@@ -7,6 +7,13 @@ namespace RE
 
 namespace Compat
 {
+    /// Incremented while a SexLabUtil Papyrus native runs; blocks VM re-entry from RunSyncStatic.
+    struct PapyrusNativeScope
+    {
+        PapyrusNativeScope();
+        ~PapyrusNativeScope();
+    };
+
     bool IsXxsUtilityLoaded();
 
     /// Calls xxsUtility.xxsIsChild when esm is loaded; otherwise engine IsChild + scale threshold.

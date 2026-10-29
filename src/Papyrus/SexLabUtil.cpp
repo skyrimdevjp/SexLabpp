@@ -97,6 +97,7 @@ namespace Papyrus::SexLabUtil
 
     bool IsChild(RE::StaticFunctionTag*, RE::Actor* a_actor)
     {
+        Compat::PapyrusNativeScope scope;
         return Compat::IsXxsChild(a_actor, true);
     };
 
@@ -105,6 +106,7 @@ namespace Papyrus::SexLabUtil
         if (!a_actor) {
             return "";
         }
+        Compat::PapyrusNativeScope scope;
         return Compat::GetSexLabActorKey(a_actor);
     };
 
