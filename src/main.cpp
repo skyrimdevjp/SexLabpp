@@ -1,4 +1,5 @@
 #include "Compat/XxsCoreLog.h"
+#include "Kagura/Kagura.h"
 #include "Papyrus/Papyrus.h"
 #include "Registry/Library.h"
 #include "Registry/Stats.h"
@@ -108,6 +109,7 @@ static void SKSEMessageHandler(SKSE::MessagingInterface::Message* message)
         Registry::Statistics::StatisticsData::GetSingleton()->Register();
         UserData::StripData::GetSingleton()->Load();
         Compat::LogXxsCoreStatus();
+        Kagura::Init();
         break;
     case SKSE::MessagingInterface::kSaveGame:
         std::thread([]() {
